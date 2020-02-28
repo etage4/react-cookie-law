@@ -229,6 +229,7 @@ ShallowWrapper {
               "textDecoration": "underline",
             }
           }
+          target="_blank"
         >
           Privacy Policy
         </a>
@@ -485,6 +486,7 @@ ShallowWrapper {
                 "textDecoration": "underline",
               }
             }
+            target="_blank"
           >
             Privacy Policy
           </a>,
@@ -936,6 +938,7 @@ ShallowWrapper {
               "marginLeft": "10px",
               "textDecoration": "underline",
             },
+            "target": "_blank",
           },
           "ref": null,
           "rendered": "Privacy Policy",
@@ -1248,6 +1251,7 @@ ShallowWrapper {
                 "textDecoration": "underline",
               }
             }
+            target="_blank"
           >
             Privacy Policy
           </a>
@@ -1504,6 +1508,7 @@ ShallowWrapper {
                   "textDecoration": "underline",
                 }
               }
+              target="_blank"
             >
               Privacy Policy
             </a>,
@@ -1955,6 +1960,7 @@ ShallowWrapper {
                 "marginLeft": "10px",
                 "textDecoration": "underline",
               },
+              "target": "_blank",
             },
             "ref": null,
             "rendered": "Privacy Policy",
