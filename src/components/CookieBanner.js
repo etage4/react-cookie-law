@@ -1,13 +1,13 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Cookies from '../Cookies';
-import CookieBannerContent from './CookieBannerContent';
-import { isServer } from '../helpers';
+import React from "react";
+import PropTypes from "prop-types";
+import Cookies from "../Cookies";
+import CookieBannerContent from "./CookieBannerContent";
+import { isServer } from "../helpers";
 
-const CONSENT_GIVEN = 'rcl_consent_given';
-const PREFERENCES_COOKIE = 'rcl_preferences_consent';
-const STATISTICS_COOKIE = 'rcl_statistics_consent';
-const MARKETING_COOKIE = 'rcl_marketing_consent';
+const CONSENT_GIVEN = "rcl_consent_given";
+const PREFERENCES_COOKIE = "rcl_preferences_consent";
+const STATISTICS_COOKIE = "rcl_statistics_consent";
+const MARKETING_COOKIE = "rcl_marketing_consent";
 
 class CookieBanner extends React.Component {
   constructor(props) {
@@ -16,11 +16,13 @@ class CookieBanner extends React.Component {
     this.state = {
       preferencesCookies: true,
       statisticsCookies: true,
-      marketingCookies: false,
+      marketingCookies: false
     };
 
     this.onScroll = this.onScroll.bind(this);
-    this.onTogglePreferencesCookies = this.onTogglePreferencesCookies.bind(this);
+    this.onTogglePreferencesCookies = this.onTogglePreferencesCookies.bind(
+      this
+    );
     this.onToggleStatisticsCookies = this.onToggleStatisticsCookies.bind(this);
     this.onToggleMarketingCookies = this.onToggleMarketingCookies.bind(this);
     this.confirm = this.confirm.bind(this);
@@ -38,9 +40,9 @@ class CookieBanner extends React.Component {
     }
 
     if (window.addEventListener) {
-      window.addEventListener('scroll', this.onScroll);
+      window.addEventListener("scroll", this.onScroll);
     } else if (window.attachEvent) {
-      window.attachEvent('onscroll', this.onScroll); // < IE9
+      window.attachEvent("onscroll", this.onScroll); // < IE9
     }
   }
 
@@ -50,9 +52,9 @@ class CookieBanner extends React.Component {
     }
 
     if (window.removeEventListener) {
-      window.removeEventListener('scroll', this.onScroll);
+      window.removeEventListener("scroll", this.onScroll);
     } else if (window.detachEvent) {
-      window.detachEvent('onscroll', this.onScroll); // < IE9
+      window.detachEvent("onscroll", this.onScroll); // < IE9
     }
   }
 
@@ -76,7 +78,11 @@ class CookieBanner extends React.Component {
   }
 
   confirm() {
-    const { preferencesCookies, statisticsCookies, marketingCookies } = this.state;
+    const {
+      preferencesCookies,
+      statisticsCookies,
+      marketingCookies
+    } = this.state;
 
     this.cookies.set(CONSENT_GIVEN);
 
@@ -105,7 +111,7 @@ class CookieBanner extends React.Component {
     const {
       onDeclinePreferences = Function,
       onDeclineStatistics = Function,
-      onDeclineMarketing = Function,
+      onDeclineMarketing = Function
     } = this.props;
 
     this.cookies.set(CONSENT_GIVEN);
@@ -128,7 +134,7 @@ class CookieBanner extends React.Component {
       onAcceptMarketing = Function,
       onDeclinePreferences = Function,
       onDeclineStatistics = Function,
-      onDeclineMarketing = Function,
+      onDeclineMarketing = Function
     } = this.props;
 
     const hasPreferencesCookie = this.cookies.get(PREFERENCES_COOKIE);
@@ -172,7 +178,7 @@ class CookieBanner extends React.Component {
       declineButtonText,
       showPreferencesOption,
       showStatisticsOption,
-      showMarketingOption,
+      showMarketingOption
     } = this.props;
 
     if (this.cookies.get(CONSENT_GIVEN)) {
@@ -200,10 +206,10 @@ class CookieBanner extends React.Component {
       onToggleStatisticsCookies: this.onToggleStatisticsCookies,
       onToggleMarketingCookies: this.onToggleMarketingCookies,
       onDecline: this.decline,
-      onConfirm: this.confirm,
+      onConfirm: this.confirm
     };
 
-    return (<CookieBannerContent {...contentProps} />);
+    return <CookieBannerContent {...contentProps} />;
   }
 }
 
@@ -230,7 +236,15 @@ CookieBanner.protoTypes = {
   onAcceptMarketing: PropTypes.func,
   onDeclinePreferences: PropTypes.func,
   onDeclineStatistics: PropTypes.func,
-  onDeclineMarketing: PropTypes.func,
+  onDeclineMarketing: PropTypes.func
 };
 
 export default CookieBanner;
+
+/**
+ * Is consent already set
+ * @returns True if consent was already set
+ */
+export const isCookieConsentSet = () => {
+  return new Cookies().get(CONSENT_GIVEN);
+};
