@@ -1,17 +1,16 @@
 {
-  "name": "@palmabit/react-cookie-law",
-  "version": "0.3.0",
+  "name": "@around-media/react-cookie-law",
+  "version": "0.4.2",
   "description": "React Cookie banner GDPR compliance",
-  "author": "Alessandro Sarzina <a.sarzina@palmabit.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Palmabit-IT/react-cookie-law.git"
+    "url": "https://github.com/around-media/react-cookie-law.git"
   },
   "bugs": {
-    "url": "https://github.com/Palmabit-IT/react-cookie-law/issues"
+    "url": "https://github.com/around-media/react-cookie-law/issues"
   },
-  "homepage": "https://github.com/Palmabit-IT/react-cookie-law#readme",
+  "homepage": "https://github.com/around-media/react-cookie-lawreadme",
   "keywords": [
     "gdpr",
     "cookie",
