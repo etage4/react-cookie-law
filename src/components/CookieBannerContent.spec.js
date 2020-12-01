@@ -24,6 +24,7 @@ describe('CookieBannerContent component', () => {
       statisticsOptionText: 'Statistics',
       marketingOptionText: 'Marketing',
       acceptButtonText: 'Accept',
+      acceptAllButtonText: 'Accept All',
       declineButtonText: 'Decline',
     };
 
@@ -58,6 +59,20 @@ describe('CookieBannerContent component', () => {
     component.find('.react-cookie-law-accept-btn').simulate('click');
 
     expect(props.onConfirm).toHaveBeenCalledTimes(1);
+  });
+
+  test('should click confirm all button', () => {
+    const props = {
+      onConfirmAll: jest.fn(),
+    };
+
+    const component = mount(
+        <CookieBannerContent {...props} />,
+    );
+
+    component.find('.react-cookie-law-accept-all-btn').simulate('click');
+
+    expect(props.onConfirmAll).toHaveBeenCalledTimes(1);
   });
 
   test('should click decline button', () => {

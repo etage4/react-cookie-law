@@ -15,6 +15,7 @@ export default (props = {}) => {
     marketingOptionText = "Marketing",
     showDeclineButton = false,
     acceptButtonText = "Accept",
+    acceptAllButtonText = "Accept All",
     declineButtonText = "Decline",
     showPreferencesOption = true,
     showStatisticsOption = true,
@@ -23,7 +24,8 @@ export default (props = {}) => {
     onToggleStatisticsCookies = Function,
     onToggleMarketingCookies = Function,
     onDecline = Function,
-    onConfirm = Function
+    onConfirm = Function,
+    onConfirmAll = Function
   } = props;
 
   const {
@@ -122,6 +124,15 @@ export default (props = {}) => {
             onClick={() => onConfirm()}
           >
             <span>{acceptButtonText}</span>
+          </button>
+
+          <button
+              type="button"
+              className="react-cookie-law-accept-all-btn"
+              style={buttonStyle}
+              onClick={() => onConfirmAll()}
+          >
+            <span>{acceptAllButtonText}</span>
           </button>
         </div>
       </div>

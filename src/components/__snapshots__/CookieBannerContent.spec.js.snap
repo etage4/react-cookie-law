@@ -267,6 +267,32 @@ ShallowWrapper {
               Accept
             </span>
           </button>
+          <button
+            className="react-cookie-law-accept-all-btn"
+            onClick={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#000000",
+                "color": "#ffffff",
+                "cursor": "pointer",
+                "display": "inline-block",
+                "fontSize": "10pt",
+                "fontWeight": "400",
+                "marginLeft": "5px",
+                "marginRight": "5px",
+                "minWidth": "80px",
+                "padding": "3px",
+                "textAlign": "center",
+                "textDecoration": "none",
+                "whiteSpace": "nowrap",
+              }
+            }
+            type="button"
+          >
+            <span>
+              Accept All
+            </span>
+          </button>
         </div>
       </div>,
       "className": "react-cookie-law-dialog ",
@@ -522,6 +548,32 @@ ShallowWrapper {
             >
               <span>
                 Accept
+              </span>
+            </button>
+            <button
+              className="react-cookie-law-accept-all-btn"
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#000000",
+                  "color": "#ffffff",
+                  "cursor": "pointer",
+                  "display": "inline-block",
+                  "fontSize": "10pt",
+                  "fontWeight": "400",
+                  "marginLeft": "5px",
+                  "marginRight": "5px",
+                  "minWidth": "80px",
+                  "padding": "3px",
+                  "textAlign": "center",
+                  "textDecoration": "none",
+                  "whiteSpace": "nowrap",
+                }
+              }
+              type="button"
+            >
+              <span>
+                Accept All
               </span>
             </button>
           </div>,
@@ -977,6 +1029,32 @@ ShallowWrapper {
                   Accept
                 </span>
               </button>,
+              <button
+                className="react-cookie-law-accept-all-btn"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "#000000",
+                    "color": "#ffffff",
+                    "cursor": "pointer",
+                    "display": "inline-block",
+                    "fontSize": "10pt",
+                    "fontWeight": "400",
+                    "marginLeft": "5px",
+                    "marginRight": "5px",
+                    "minWidth": "80px",
+                    "padding": "3px",
+                    "textAlign": "center",
+                    "textDecoration": "none",
+                    "whiteSpace": "nowrap",
+                  }
+                }
+                type="button"
+              >
+                <span>
+                  Accept All
+                </span>
+              </button>,
             ],
             "className": "react-cookie-law-button-wrapper",
             "style": Object {
@@ -1023,6 +1101,47 @@ ShallowWrapper {
                 },
                 "ref": null,
                 "rendered": "Accept",
+                "type": "span",
+              },
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  Accept All
+                </span>,
+                "className": "react-cookie-law-accept-all-btn",
+                "onClick": [Function],
+                "style": Object {
+                  "backgroundColor": "#000000",
+                  "color": "#ffffff",
+                  "cursor": "pointer",
+                  "display": "inline-block",
+                  "fontSize": "10pt",
+                  "fontWeight": "400",
+                  "marginLeft": "5px",
+                  "marginRight": "5px",
+                  "minWidth": "80px",
+                  "padding": "3px",
+                  "textAlign": "center",
+                  "textDecoration": "none",
+                  "whiteSpace": "nowrap",
+                },
+                "type": "button",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Accept All",
+                },
+                "ref": null,
+                "rendered": "Accept All",
                 "type": "span",
               },
               "type": "button",
@@ -1289,6 +1408,32 @@ ShallowWrapper {
                 Accept
               </span>
             </button>
+            <button
+              className="react-cookie-law-accept-all-btn"
+              onClick={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#000000",
+                  "color": "#ffffff",
+                  "cursor": "pointer",
+                  "display": "inline-block",
+                  "fontSize": "10pt",
+                  "fontWeight": "400",
+                  "marginLeft": "5px",
+                  "marginRight": "5px",
+                  "minWidth": "80px",
+                  "padding": "3px",
+                  "textAlign": "center",
+                  "textDecoration": "none",
+                  "whiteSpace": "nowrap",
+                }
+              }
+              type="button"
+            >
+              <span>
+                Accept All
+              </span>
+            </button>
           </div>
         </div>,
         "className": "react-cookie-law-dialog ",
@@ -1544,6 +1689,32 @@ ShallowWrapper {
               >
                 <span>
                   Accept
+                </span>
+              </button>
+              <button
+                className="react-cookie-law-accept-all-btn"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "#000000",
+                    "color": "#ffffff",
+                    "cursor": "pointer",
+                    "display": "inline-block",
+                    "fontSize": "10pt",
+                    "fontWeight": "400",
+                    "marginLeft": "5px",
+                    "marginRight": "5px",
+                    "minWidth": "80px",
+                    "padding": "3px",
+                    "textAlign": "center",
+                    "textDecoration": "none",
+                    "whiteSpace": "nowrap",
+                  }
+                }
+                type="button"
+              >
+                <span>
+                  Accept All
                 </span>
               </button>
             </div>,
@@ -1999,6 +2170,32 @@ ShallowWrapper {
                     Accept
                   </span>
                 </button>,
+                <button
+                  className="react-cookie-law-accept-all-btn"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "#000000",
+                      "color": "#ffffff",
+                      "cursor": "pointer",
+                      "display": "inline-block",
+                      "fontSize": "10pt",
+                      "fontWeight": "400",
+                      "marginLeft": "5px",
+                      "marginRight": "5px",
+                      "minWidth": "80px",
+                      "padding": "3px",
+                      "textAlign": "center",
+                      "textDecoration": "none",
+                      "whiteSpace": "nowrap",
+                    }
+                  }
+                  type="button"
+                >
+                  <span>
+                    Accept All
+                  </span>
+                </button>,
               ],
               "className": "react-cookie-law-button-wrapper",
               "style": Object {
@@ -2045,6 +2242,47 @@ ShallowWrapper {
                   },
                   "ref": null,
                   "rendered": "Accept",
+                  "type": "span",
+                },
+                "type": "button",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <span>
+                    Accept All
+                  </span>,
+                  "className": "react-cookie-law-accept-all-btn",
+                  "onClick": [Function],
+                  "style": Object {
+                    "backgroundColor": "#000000",
+                    "color": "#ffffff",
+                    "cursor": "pointer",
+                    "display": "inline-block",
+                    "fontSize": "10pt",
+                    "fontWeight": "400",
+                    "marginLeft": "5px",
+                    "marginRight": "5px",
+                    "minWidth": "80px",
+                    "padding": "3px",
+                    "textAlign": "center",
+                    "textDecoration": "none",
+                    "whiteSpace": "nowrap",
+                  },
+                  "type": "button",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Accept All",
+                  },
+                  "ref": null,
+                  "rendered": "Accept All",
                   "type": "span",
                 },
                 "type": "button",

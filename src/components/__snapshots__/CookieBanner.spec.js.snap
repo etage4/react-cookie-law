@@ -19,6 +19,7 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
+      "acceptAllButtonText": undefined,
       "acceptButtonText": undefined,
       "className": undefined,
       "declineButtonText": undefined,
@@ -26,6 +27,7 @@ ShallowWrapper {
       "message": "Text",
       "necessaryOptionText": undefined,
       "onConfirm": [Function],
+      "onConfirmAll": [Function],
       "onDecline": [Function],
       "onToggleMarketingCookies": [Function],
       "onTogglePreferencesCookies": [Function],
@@ -50,6 +52,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
+        "acceptAllButtonText": undefined,
         "acceptButtonText": undefined,
         "className": undefined,
         "declineButtonText": undefined,
@@ -57,6 +60,7 @@ ShallowWrapper {
         "message": "Text",
         "necessaryOptionText": undefined,
         "onConfirm": [Function],
+        "onConfirmAll": [Function],
         "onDecline": [Function],
         "onToggleMarketingCookies": [Function],
         "onTogglePreferencesCookies": [Function],

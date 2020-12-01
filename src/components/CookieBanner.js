@@ -26,6 +26,7 @@ class CookieBanner extends React.Component {
     this.onToggleStatisticsCookies = this.onToggleStatisticsCookies.bind(this);
     this.onToggleMarketingCookies = this.onToggleMarketingCookies.bind(this);
     this.confirm = this.confirm.bind(this);
+    this.confirmAll = this.confirmAll.bind(this);
     this.decline = this.decline.bind(this);
     this.consetsCallback = this.consetsCallback.bind(this);
 
@@ -107,6 +108,15 @@ class CookieBanner extends React.Component {
     this.forceUpdate();
   }
 
+  confirmAll() {
+    this.cookies.set(CONSENT_GIVEN);
+    this.cookies.set(PREFERENCES_COOKIE);
+    this.cookies.set(STATISTICS_COOKIE);
+    this.cookies.set(MARKETING_COOKIE);
+
+    this.forceUpdate();
+  }
+
   decline() {
     const {
       onDeclinePreferences = Function,
@@ -175,6 +185,7 @@ class CookieBanner extends React.Component {
       marketingOptionText,
       showDeclineButton,
       acceptButtonText,
+      acceptAllButtonText,
       declineButtonText,
       showPreferencesOption,
       showStatisticsOption,
@@ -198,6 +209,7 @@ class CookieBanner extends React.Component {
       marketingOptionText,
       showDeclineButton,
       acceptButtonText,
+      acceptAllButtonText,
       declineButtonText,
       showPreferencesOption,
       showStatisticsOption,
@@ -206,7 +218,8 @@ class CookieBanner extends React.Component {
       onToggleStatisticsCookies: this.onToggleStatisticsCookies,
       onToggleMarketingCookies: this.onToggleMarketingCookies,
       onDecline: this.decline,
-      onConfirm: this.confirm
+      onConfirm: this.confirm,
+      onConfirmAll: this.confirmAll
     };
 
     return <CookieBannerContent {...contentProps} />;
@@ -224,6 +237,7 @@ CookieBanner.protoTypes = {
   statisticsOptionText: PropTypes.string,
   marketingOptionText: PropTypes.string,
   acceptButtonText: PropTypes.string,
+  acceptAllButtonText: PropTypes.string,
   declineButtonText: PropTypes.string,
   showDeclineButton: PropTypes.bool,
   dismissOnScroll: PropTypes.bool,
@@ -231,6 +245,7 @@ CookieBanner.protoTypes = {
   showStatisticsOption: PropTypes.bool,
   showMarketingOption: PropTypes.bool,
   onAccept: PropTypes.func,
+  onAcceptAll: PropTypes.func,
   onAcceptPreferences: PropTypes.func,
   onAcceptStatistics: PropTypes.func,
   onAcceptMarketing: PropTypes.func,
