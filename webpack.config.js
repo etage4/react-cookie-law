@@ -5,7 +5,7 @@ module.exports = {
   output: {
     path: __dirname + '/dist',
     filename: 'index.js',
-    library: 'ReactCookieLaw',
+    library: 'CookieBanner',
     libraryTarget: 'umd',
   },
   target: 'node',
@@ -19,5 +19,8 @@ module.exports = {
   ],
   optimization: {
     minimize: true,
+  },
+  resolve: {
+    extensions: [".jsx", ".js"]
   },
 };
