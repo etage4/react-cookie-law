@@ -6,4 +6,3 @@ const CookieBannerUniversal = props =>
   isServer() ? null : <CookieBanner {...props} />;
 
 export { CookieBannerUniversal as CookieBanner };
-export { isCookieConsentSet } from "./CookieBannerHelper";
