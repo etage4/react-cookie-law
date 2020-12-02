@@ -47,6 +47,8 @@ export default (props = {}) => {
     checkboxStyle
   };
 
+  const btn = 'btn';
+
   return (
     <div className={`react-cookie-law-dialog ${className}`} style={dialogStyle}>
       <div className="react-cookie-law-container" style={containerStyle}>
@@ -109,7 +111,7 @@ export default (props = {}) => {
           {showDeclineButton && (
             <button
               type="button"
-              className="react-cookie-law-decline-btn"
+              className={`react-cookie-law-decline-btn ${btn}`}
               style={buttonStyle}
               onClick={() => onDecline()}
             >
@@ -119,7 +121,7 @@ export default (props = {}) => {
 
           <button
             type="button"
-            className="react-cookie-law-accept-btn"
+            className={`react-cookie-law-accept-btn ${btn}`}
             style={buttonStyle}
             onClick={() => onConfirm()}
           >
@@ -128,7 +130,7 @@ export default (props = {}) => {
 
           <button
               type="button"
-              className="react-cookie-law-accept-all-btn"
+              className={`react-cookie-law-accept-all-btn ${btn}`}
               style={buttonStyle}
               onClick={() => onConfirmAll()}
           >
