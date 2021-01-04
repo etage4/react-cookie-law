@@ -17,1443 +17,37 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "host",
+    "nodeType": "function",
     "props": Object {
-      "children": <div
-        className="react-cookie-law-container"
-        style={
-          Object {
-            "marginLeft": "auto",
-            "marginRight": "auto",
-            "maxWidth": "960px",
-            "overflow": "hidden",
-          }
-        }
-      >
+      "children": Array [
         <div
-          className="react-cookie-law-msg"
-          style={
-            Object {
-              "color": "#000000",
-              "fontSize": "10pt",
-              "fontWeight": "400",
-              "lineHeight": "130%",
-              "minHeight": "32px",
-              "padding": "10px 0",
-            }
-          }
-        >
-          Custom text
-        </div>
+          className="react-cookie-law-background"
+        />,
         <div
-          className="react-cookie-law-select-pane"
+          className="react-cookie-law-dialog "
           style={
             Object {
-              "display": "table-cell",
-              "padding": "3px 0px 10px 0px",
-            }
-          }
-        >
-          <CookieOption
-            checked={true}
-            disabled={true}
-            id="check-required-cookies"
-            styles={
-              Object {
-                "checkboxStyle": Object {
-                  "cursor": "pointer",
-                  "height": "14px",
-                  "left": "0",
-                  "position": "absolute",
-                  "top": "4px",
-                  "width": "14px",
-                  "zIndex": "2",
-                },
-                "optionLabelStyle": Object {
-                  "color": "#c6c6c6",
-                  "cursor": "default",
-                  "display": "inline-block",
-                  "fontSize": "12pt",
-                  "height": "auto",
-                  "left": "0",
-                  "minHeight": "14px",
-                  "padding": "1px 0 0 20px",
-                  "position": "relative",
-                  "top": "0",
-                  "verticalAlign": "top",
-                  "width": "auto",
-                  "zIndex": "1",
-                },
-                "optionWrapperStyle": Object {
-                  "display": "inline-block",
-                  "float": "left",
-                  "marginLeft": "7px",
-                  "marginRight": "7px",
-                  "position": "relative",
-                },
-              }
-            }
-            text="Necessary"
-          />
-          <CookieOption
-            checked={true}
-            id="check-preferences-cookies"
-            onChange={[Function]}
-            styles={
-              Object {
-                "checkboxStyle": Object {
-                  "cursor": "pointer",
-                  "height": "14px",
-                  "left": "0",
-                  "position": "absolute",
-                  "top": "4px",
-                  "width": "14px",
-                  "zIndex": "2",
-                },
-                "optionLabelStyle": Object {
-                  "color": "#c6c6c6",
-                  "cursor": "default",
-                  "display": "inline-block",
-                  "fontSize": "12pt",
-                  "height": "auto",
-                  "left": "0",
-                  "minHeight": "14px",
-                  "padding": "1px 0 0 20px",
-                  "position": "relative",
-                  "top": "0",
-                  "verticalAlign": "top",
-                  "width": "auto",
-                  "zIndex": "1",
-                },
-                "optionWrapperStyle": Object {
-                  "display": "inline-block",
-                  "float": "left",
-                  "marginLeft": "7px",
-                  "marginRight": "7px",
-                  "position": "relative",
-                },
-              }
-            }
-            text="Preferences"
-          />
-          <CookieOption
-            checked={true}
-            id="check-statistics-cookies"
-            onChange={[Function]}
-            styles={
-              Object {
-                "checkboxStyle": Object {
-                  "cursor": "pointer",
-                  "height": "14px",
-                  "left": "0",
-                  "position": "absolute",
-                  "top": "4px",
-                  "width": "14px",
-                  "zIndex": "2",
-                },
-                "optionLabelStyle": Object {
-                  "color": "#c6c6c6",
-                  "cursor": "default",
-                  "display": "inline-block",
-                  "fontSize": "12pt",
-                  "height": "auto",
-                  "left": "0",
-                  "minHeight": "14px",
-                  "padding": "1px 0 0 20px",
-                  "position": "relative",
-                  "top": "0",
-                  "verticalAlign": "top",
-                  "width": "auto",
-                  "zIndex": "1",
-                },
-                "optionWrapperStyle": Object {
-                  "display": "inline-block",
-                  "float": "left",
-                  "marginLeft": "7px",
-                  "marginRight": "7px",
-                  "position": "relative",
-                },
-              }
-            }
-            text="Statistics"
-          />
-          <CookieOption
-            id="check-marketing-cookies"
-            onChange={[Function]}
-            styles={
-              Object {
-                "checkboxStyle": Object {
-                  "cursor": "pointer",
-                  "height": "14px",
-                  "left": "0",
-                  "position": "absolute",
-                  "top": "4px",
-                  "width": "14px",
-                  "zIndex": "2",
-                },
-                "optionLabelStyle": Object {
-                  "color": "#c6c6c6",
-                  "cursor": "default",
-                  "display": "inline-block",
-                  "fontSize": "12pt",
-                  "height": "auto",
-                  "left": "0",
-                  "minHeight": "14px",
-                  "padding": "1px 0 0 20px",
-                  "position": "relative",
-                  "top": "0",
-                  "verticalAlign": "top",
-                  "width": "auto",
-                  "zIndex": "1",
-                },
-                "optionWrapperStyle": Object {
-                  "display": "inline-block",
-                  "float": "left",
-                  "marginLeft": "7px",
-                  "marginRight": "7px",
-                  "position": "relative",
-                },
-              }
-            }
-            text="Marketing"
-          />
-        </div>
-        <a
-          className="react-cookie-law-policy"
-          href="/#"
-          style={
-            Object {
-              "color": "#000000",
-              "fontSize": "10pt",
-              "marginLeft": "10px",
-              "textDecoration": "underline",
-            }
-          }
-          target="_blank"
-        >
-          Privacy Policy
-        </a>
-        <div
-          className="react-cookie-law-button-wrapper"
-          style={
-            Object {
-              "float": "right",
-            }
-          }
-        >
-          <button
-            className="react-cookie-law-accept-btn"
-            onClick={[Function]}
-            style={
-              Object {
-                "backgroundColor": "#000000",
-                "color": "#ffffff",
-                "cursor": "pointer",
-                "display": "inline-block",
-                "fontSize": "10pt",
-                "fontWeight": "400",
-                "marginLeft": "5px",
-                "marginRight": "5px",
-                "minWidth": "80px",
-                "padding": "3px",
-                "textAlign": "center",
-                "textDecoration": "none",
-                "whiteSpace": "nowrap",
-              }
-            }
-            type="button"
-          >
-            <span>
-              Accept
-            </span>
-          </button>
-          <button
-            className="react-cookie-law-accept-all-btn"
-            onClick={[Function]}
-            style={
-              Object {
-                "backgroundColor": "#000000",
-                "color": "#ffffff",
-                "cursor": "pointer",
-                "display": "inline-block",
-                "fontSize": "10pt",
-                "fontWeight": "400",
-                "marginLeft": "5px",
-                "marginRight": "5px",
-                "minWidth": "80px",
-                "padding": "3px",
-                "textAlign": "center",
-                "textDecoration": "none",
-                "whiteSpace": "nowrap",
-              }
-            }
-            type="button"
-          >
-            <span>
-              Accept All
-            </span>
-          </button>
-        </div>
-      </div>,
-      "className": "react-cookie-law-dialog ",
-      "style": Object {
-        "backgroundColor": "#f8f7f7",
-        "left": "0",
-        "padding": "10px",
-        "position": "fixed",
-        "right": "0",
-        "top": "0",
-        "zIndex": "100000",
-      },
-    },
-    "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <div
-            className="react-cookie-law-msg"
-            style={
-              Object {
-                "color": "#000000",
-                "fontSize": "10pt",
-                "fontWeight": "400",
-                "lineHeight": "130%",
-                "minHeight": "32px",
-                "padding": "10px 0",
-              }
-            }
-          >
-            Custom text
-          </div>,
-          <div
-            className="react-cookie-law-select-pane"
-            style={
-              Object {
-                "display": "table-cell",
-                "padding": "3px 0px 10px 0px",
-              }
-            }
-          >
-            <CookieOption
-              checked={true}
-              disabled={true}
-              id="check-required-cookies"
-              styles={
-                Object {
-                  "checkboxStyle": Object {
-                    "cursor": "pointer",
-                    "height": "14px",
-                    "left": "0",
-                    "position": "absolute",
-                    "top": "4px",
-                    "width": "14px",
-                    "zIndex": "2",
-                  },
-                  "optionLabelStyle": Object {
-                    "color": "#c6c6c6",
-                    "cursor": "default",
-                    "display": "inline-block",
-                    "fontSize": "12pt",
-                    "height": "auto",
-                    "left": "0",
-                    "minHeight": "14px",
-                    "padding": "1px 0 0 20px",
-                    "position": "relative",
-                    "top": "0",
-                    "verticalAlign": "top",
-                    "width": "auto",
-                    "zIndex": "1",
-                  },
-                  "optionWrapperStyle": Object {
-                    "display": "inline-block",
-                    "float": "left",
-                    "marginLeft": "7px",
-                    "marginRight": "7px",
-                    "position": "relative",
-                  },
-                }
-              }
-              text="Necessary"
-            />
-            <CookieOption
-              checked={true}
-              id="check-preferences-cookies"
-              onChange={[Function]}
-              styles={
-                Object {
-                  "checkboxStyle": Object {
-                    "cursor": "pointer",
-                    "height": "14px",
-                    "left": "0",
-                    "position": "absolute",
-                    "top": "4px",
-                    "width": "14px",
-                    "zIndex": "2",
-                  },
-                  "optionLabelStyle": Object {
-                    "color": "#c6c6c6",
-                    "cursor": "default",
-                    "display": "inline-block",
-                    "fontSize": "12pt",
-                    "height": "auto",
-                    "left": "0",
-                    "minHeight": "14px",
-                    "padding": "1px 0 0 20px",
-                    "position": "relative",
-                    "top": "0",
-                    "verticalAlign": "top",
-                    "width": "auto",
-                    "zIndex": "1",
-                  },
-                  "optionWrapperStyle": Object {
-                    "display": "inline-block",
-                    "float": "left",
-                    "marginLeft": "7px",
-                    "marginRight": "7px",
-                    "position": "relative",
-                  },
-                }
-              }
-              text="Preferences"
-            />
-            <CookieOption
-              checked={true}
-              id="check-statistics-cookies"
-              onChange={[Function]}
-              styles={
-                Object {
-                  "checkboxStyle": Object {
-                    "cursor": "pointer",
-                    "height": "14px",
-                    "left": "0",
-                    "position": "absolute",
-                    "top": "4px",
-                    "width": "14px",
-                    "zIndex": "2",
-                  },
-                  "optionLabelStyle": Object {
-                    "color": "#c6c6c6",
-                    "cursor": "default",
-                    "display": "inline-block",
-                    "fontSize": "12pt",
-                    "height": "auto",
-                    "left": "0",
-                    "minHeight": "14px",
-                    "padding": "1px 0 0 20px",
-                    "position": "relative",
-                    "top": "0",
-                    "verticalAlign": "top",
-                    "width": "auto",
-                    "zIndex": "1",
-                  },
-                  "optionWrapperStyle": Object {
-                    "display": "inline-block",
-                    "float": "left",
-                    "marginLeft": "7px",
-                    "marginRight": "7px",
-                    "position": "relative",
-                  },
-                }
-              }
-              text="Statistics"
-            />
-            <CookieOption
-              id="check-marketing-cookies"
-              onChange={[Function]}
-              styles={
-                Object {
-                  "checkboxStyle": Object {
-                    "cursor": "pointer",
-                    "height": "14px",
-                    "left": "0",
-                    "position": "absolute",
-                    "top": "4px",
-                    "width": "14px",
-                    "zIndex": "2",
-                  },
-                  "optionLabelStyle": Object {
-                    "color": "#c6c6c6",
-                    "cursor": "default",
-                    "display": "inline-block",
-                    "fontSize": "12pt",
-                    "height": "auto",
-                    "left": "0",
-                    "minHeight": "14px",
-                    "padding": "1px 0 0 20px",
-                    "position": "relative",
-                    "top": "0",
-                    "verticalAlign": "top",
-                    "width": "auto",
-                    "zIndex": "1",
-                  },
-                  "optionWrapperStyle": Object {
-                    "display": "inline-block",
-                    "float": "left",
-                    "marginLeft": "7px",
-                    "marginRight": "7px",
-                    "position": "relative",
-                  },
-                }
-              }
-              text="Marketing"
-            />
-          </div>,
-          <a
-            className="react-cookie-law-policy"
-            href="/#"
-            style={
-              Object {
-                "color": "#000000",
-                "fontSize": "10pt",
-                "marginLeft": "10px",
-                "textDecoration": "underline",
-              }
-            }
-            target="_blank"
-          >
-            Privacy Policy
-          </a>,
-          <div
-            className="react-cookie-law-button-wrapper"
-            style={
-              Object {
-                "float": "right",
-              }
-            }
-          >
-            <button
-              className="react-cookie-law-accept-btn"
-              onClick={[Function]}
-              style={
-                Object {
-                  "backgroundColor": "#000000",
-                  "color": "#ffffff",
-                  "cursor": "pointer",
-                  "display": "inline-block",
-                  "fontSize": "10pt",
-                  "fontWeight": "400",
-                  "marginLeft": "5px",
-                  "marginRight": "5px",
-                  "minWidth": "80px",
-                  "padding": "3px",
-                  "textAlign": "center",
-                  "textDecoration": "none",
-                  "whiteSpace": "nowrap",
-                }
-              }
-              type="button"
-            >
-              <span>
-                Accept
-              </span>
-            </button>
-            <button
-              className="react-cookie-law-accept-all-btn"
-              onClick={[Function]}
-              style={
-                Object {
-                  "backgroundColor": "#000000",
-                  "color": "#ffffff",
-                  "cursor": "pointer",
-                  "display": "inline-block",
-                  "fontSize": "10pt",
-                  "fontWeight": "400",
-                  "marginLeft": "5px",
-                  "marginRight": "5px",
-                  "minWidth": "80px",
-                  "padding": "3px",
-                  "textAlign": "center",
-                  "textDecoration": "none",
-                  "whiteSpace": "nowrap",
-                }
-              }
-              type="button"
-            >
-              <span>
-                Accept All
-              </span>
-            </button>
-          </div>,
-        ],
-        "className": "react-cookie-law-container",
-        "style": Object {
-          "marginLeft": "auto",
-          "marginRight": "auto",
-          "maxWidth": "960px",
-          "overflow": "hidden",
-        },
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Custom text",
-            "className": "react-cookie-law-msg",
-            "style": Object {
-              "color": "#000000",
-              "fontSize": "10pt",
-              "fontWeight": "400",
-              "lineHeight": "130%",
-              "minHeight": "32px",
-              "padding": "10px 0",
-            },
-          },
-          "ref": null,
-          "rendered": "Custom text",
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <CookieOption
-                checked={true}
-                disabled={true}
-                id="check-required-cookies"
-                styles={
-                  Object {
-                    "checkboxStyle": Object {
-                      "cursor": "pointer",
-                      "height": "14px",
-                      "left": "0",
-                      "position": "absolute",
-                      "top": "4px",
-                      "width": "14px",
-                      "zIndex": "2",
-                    },
-                    "optionLabelStyle": Object {
-                      "color": "#c6c6c6",
-                      "cursor": "default",
-                      "display": "inline-block",
-                      "fontSize": "12pt",
-                      "height": "auto",
-                      "left": "0",
-                      "minHeight": "14px",
-                      "padding": "1px 0 0 20px",
-                      "position": "relative",
-                      "top": "0",
-                      "verticalAlign": "top",
-                      "width": "auto",
-                      "zIndex": "1",
-                    },
-                    "optionWrapperStyle": Object {
-                      "display": "inline-block",
-                      "float": "left",
-                      "marginLeft": "7px",
-                      "marginRight": "7px",
-                      "position": "relative",
-                    },
-                  }
-                }
-                text="Necessary"
-              />,
-              <CookieOption
-                checked={true}
-                id="check-preferences-cookies"
-                onChange={[Function]}
-                styles={
-                  Object {
-                    "checkboxStyle": Object {
-                      "cursor": "pointer",
-                      "height": "14px",
-                      "left": "0",
-                      "position": "absolute",
-                      "top": "4px",
-                      "width": "14px",
-                      "zIndex": "2",
-                    },
-                    "optionLabelStyle": Object {
-                      "color": "#c6c6c6",
-                      "cursor": "default",
-                      "display": "inline-block",
-                      "fontSize": "12pt",
-                      "height": "auto",
-                      "left": "0",
-                      "minHeight": "14px",
-                      "padding": "1px 0 0 20px",
-                      "position": "relative",
-                      "top": "0",
-                      "verticalAlign": "top",
-                      "width": "auto",
-                      "zIndex": "1",
-                    },
-                    "optionWrapperStyle": Object {
-                      "display": "inline-block",
-                      "float": "left",
-                      "marginLeft": "7px",
-                      "marginRight": "7px",
-                      "position": "relative",
-                    },
-                  }
-                }
-                text="Preferences"
-              />,
-              <CookieOption
-                checked={true}
-                id="check-statistics-cookies"
-                onChange={[Function]}
-                styles={
-                  Object {
-                    "checkboxStyle": Object {
-                      "cursor": "pointer",
-                      "height": "14px",
-                      "left": "0",
-                      "position": "absolute",
-                      "top": "4px",
-                      "width": "14px",
-                      "zIndex": "2",
-                    },
-                    "optionLabelStyle": Object {
-                      "color": "#c6c6c6",
-                      "cursor": "default",
-                      "display": "inline-block",
-                      "fontSize": "12pt",
-                      "height": "auto",
-                      "left": "0",
-                      "minHeight": "14px",
-                      "padding": "1px 0 0 20px",
-                      "position": "relative",
-                      "top": "0",
-                      "verticalAlign": "top",
-                      "width": "auto",
-                      "zIndex": "1",
-                    },
-                    "optionWrapperStyle": Object {
-                      "display": "inline-block",
-                      "float": "left",
-                      "marginLeft": "7px",
-                      "marginRight": "7px",
-                      "position": "relative",
-                    },
-                  }
-                }
-                text="Statistics"
-              />,
-              <CookieOption
-                id="check-marketing-cookies"
-                onChange={[Function]}
-                styles={
-                  Object {
-                    "checkboxStyle": Object {
-                      "cursor": "pointer",
-                      "height": "14px",
-                      "left": "0",
-                      "position": "absolute",
-                      "top": "4px",
-                      "width": "14px",
-                      "zIndex": "2",
-                    },
-                    "optionLabelStyle": Object {
-                      "color": "#c6c6c6",
-                      "cursor": "default",
-                      "display": "inline-block",
-                      "fontSize": "12pt",
-                      "height": "auto",
-                      "left": "0",
-                      "minHeight": "14px",
-                      "padding": "1px 0 0 20px",
-                      "position": "relative",
-                      "top": "0",
-                      "verticalAlign": "top",
-                      "width": "auto",
-                      "zIndex": "1",
-                    },
-                    "optionWrapperStyle": Object {
-                      "display": "inline-block",
-                      "float": "left",
-                      "marginLeft": "7px",
-                      "marginRight": "7px",
-                      "position": "relative",
-                    },
-                  }
-                }
-                text="Marketing"
-              />,
-            ],
-            "className": "react-cookie-law-select-pane",
-            "style": Object {
-              "display": "table-cell",
-              "padding": "3px 0px 10px 0px",
-            },
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "checked": true,
-                "disabled": true,
-                "id": "check-required-cookies",
-                "styles": Object {
-                  "checkboxStyle": Object {
-                    "cursor": "pointer",
-                    "height": "14px",
-                    "left": "0",
-                    "position": "absolute",
-                    "top": "4px",
-                    "width": "14px",
-                    "zIndex": "2",
-                  },
-                  "optionLabelStyle": Object {
-                    "color": "#c6c6c6",
-                    "cursor": "default",
-                    "display": "inline-block",
-                    "fontSize": "12pt",
-                    "height": "auto",
-                    "left": "0",
-                    "minHeight": "14px",
-                    "padding": "1px 0 0 20px",
-                    "position": "relative",
-                    "top": "0",
-                    "verticalAlign": "top",
-                    "width": "auto",
-                    "zIndex": "1",
-                  },
-                  "optionWrapperStyle": Object {
-                    "display": "inline-block",
-                    "float": "left",
-                    "marginLeft": "7px",
-                    "marginRight": "7px",
-                    "position": "relative",
-                  },
-                },
-                "text": "Necessary",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "checked": true,
-                "id": "check-preferences-cookies",
-                "onChange": [Function],
-                "styles": Object {
-                  "checkboxStyle": Object {
-                    "cursor": "pointer",
-                    "height": "14px",
-                    "left": "0",
-                    "position": "absolute",
-                    "top": "4px",
-                    "width": "14px",
-                    "zIndex": "2",
-                  },
-                  "optionLabelStyle": Object {
-                    "color": "#c6c6c6",
-                    "cursor": "default",
-                    "display": "inline-block",
-                    "fontSize": "12pt",
-                    "height": "auto",
-                    "left": "0",
-                    "minHeight": "14px",
-                    "padding": "1px 0 0 20px",
-                    "position": "relative",
-                    "top": "0",
-                    "verticalAlign": "top",
-                    "width": "auto",
-                    "zIndex": "1",
-                  },
-                  "optionWrapperStyle": Object {
-                    "display": "inline-block",
-                    "float": "left",
-                    "marginLeft": "7px",
-                    "marginRight": "7px",
-                    "position": "relative",
-                  },
-                },
-                "text": "Preferences",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "checked": true,
-                "id": "check-statistics-cookies",
-                "onChange": [Function],
-                "styles": Object {
-                  "checkboxStyle": Object {
-                    "cursor": "pointer",
-                    "height": "14px",
-                    "left": "0",
-                    "position": "absolute",
-                    "top": "4px",
-                    "width": "14px",
-                    "zIndex": "2",
-                  },
-                  "optionLabelStyle": Object {
-                    "color": "#c6c6c6",
-                    "cursor": "default",
-                    "display": "inline-block",
-                    "fontSize": "12pt",
-                    "height": "auto",
-                    "left": "0",
-                    "minHeight": "14px",
-                    "padding": "1px 0 0 20px",
-                    "position": "relative",
-                    "top": "0",
-                    "verticalAlign": "top",
-                    "width": "auto",
-                    "zIndex": "1",
-                  },
-                  "optionWrapperStyle": Object {
-                    "display": "inline-block",
-                    "float": "left",
-                    "marginLeft": "7px",
-                    "marginRight": "7px",
-                    "position": "relative",
-                  },
-                },
-                "text": "Statistics",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "id": "check-marketing-cookies",
-                "onChange": [Function],
-                "styles": Object {
-                  "checkboxStyle": Object {
-                    "cursor": "pointer",
-                    "height": "14px",
-                    "left": "0",
-                    "position": "absolute",
-                    "top": "4px",
-                    "width": "14px",
-                    "zIndex": "2",
-                  },
-                  "optionLabelStyle": Object {
-                    "color": "#c6c6c6",
-                    "cursor": "default",
-                    "display": "inline-block",
-                    "fontSize": "12pt",
-                    "height": "auto",
-                    "left": "0",
-                    "minHeight": "14px",
-                    "padding": "1px 0 0 20px",
-                    "position": "relative",
-                    "top": "0",
-                    "verticalAlign": "top",
-                    "width": "auto",
-                    "zIndex": "1",
-                  },
-                  "optionWrapperStyle": Object {
-                    "display": "inline-block",
-                    "float": "left",
-                    "marginLeft": "7px",
-                    "marginRight": "7px",
-                    "position": "relative",
-                  },
-                },
-                "text": "Marketing",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-          ],
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Privacy Policy",
-            "className": "react-cookie-law-policy",
-            "href": "/#",
-            "style": Object {
-              "color": "#000000",
-              "fontSize": "10pt",
-              "marginLeft": "10px",
-              "textDecoration": "underline",
-            },
-            "target": "_blank",
-          },
-          "ref": null,
-          "rendered": "Privacy Policy",
-          "type": "a",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              false,
-              <button
-                className="react-cookie-law-accept-btn"
-                onClick={[Function]}
-                style={
-                  Object {
-                    "backgroundColor": "#000000",
-                    "color": "#ffffff",
-                    "cursor": "pointer",
-                    "display": "inline-block",
-                    "fontSize": "10pt",
-                    "fontWeight": "400",
-                    "marginLeft": "5px",
-                    "marginRight": "5px",
-                    "minWidth": "80px",
-                    "padding": "3px",
-                    "textAlign": "center",
-                    "textDecoration": "none",
-                    "whiteSpace": "nowrap",
-                  }
-                }
-                type="button"
-              >
-                <span>
-                  Accept
-                </span>
-              </button>,
-              <button
-                className="react-cookie-law-accept-all-btn"
-                onClick={[Function]}
-                style={
-                  Object {
-                    "backgroundColor": "#000000",
-                    "color": "#ffffff",
-                    "cursor": "pointer",
-                    "display": "inline-block",
-                    "fontSize": "10pt",
-                    "fontWeight": "400",
-                    "marginLeft": "5px",
-                    "marginRight": "5px",
-                    "minWidth": "80px",
-                    "padding": "3px",
-                    "textAlign": "center",
-                    "textDecoration": "none",
-                    "whiteSpace": "nowrap",
-                  }
-                }
-                type="button"
-              >
-                <span>
-                  Accept All
-                </span>
-              </button>,
-            ],
-            "className": "react-cookie-law-button-wrapper",
-            "style": Object {
-              "float": "right",
-            },
-          },
-          "ref": null,
-          "rendered": Array [
-            false,
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": <span>
-                  Accept
-                </span>,
-                "className": "react-cookie-law-accept-btn",
-                "onClick": [Function],
-                "style": Object {
-                  "backgroundColor": "#000000",
-                  "color": "#ffffff",
-                  "cursor": "pointer",
-                  "display": "inline-block",
-                  "fontSize": "10pt",
-                  "fontWeight": "400",
-                  "marginLeft": "5px",
-                  "marginRight": "5px",
-                  "minWidth": "80px",
-                  "padding": "3px",
-                  "textAlign": "center",
-                  "textDecoration": "none",
-                  "whiteSpace": "nowrap",
-                },
-                "type": "button",
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "Accept",
-                },
-                "ref": null,
-                "rendered": "Accept",
-                "type": "span",
-              },
-              "type": "button",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": <span>
-                  Accept All
-                </span>,
-                "className": "react-cookie-law-accept-all-btn",
-                "onClick": [Function],
-                "style": Object {
-                  "backgroundColor": "#000000",
-                  "color": "#ffffff",
-                  "cursor": "pointer",
-                  "display": "inline-block",
-                  "fontSize": "10pt",
-                  "fontWeight": "400",
-                  "marginLeft": "5px",
-                  "marginRight": "5px",
-                  "minWidth": "80px",
-                  "padding": "3px",
-                  "textAlign": "center",
-                  "textDecoration": "none",
-                  "whiteSpace": "nowrap",
-                },
-                "type": "button",
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "Accept All",
-                },
-                "ref": null,
-                "rendered": "Accept All",
-                "type": "span",
-              },
-              "type": "button",
-            },
-          ],
-          "type": "div",
-        },
-      ],
-      "type": "div",
-    },
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <div
-          className="react-cookie-law-container"
-          style={
-            Object {
-              "marginLeft": "auto",
-              "marginRight": "auto",
-              "maxWidth": "960px",
-              "overflow": "hidden",
+              "backgroundColor": "#f8f7f7",
+              "left": "0",
+              "padding": "10px",
+              "position": "fixed",
+              "right": "0",
+              "top": "0",
+              "zIndex": "100000",
             }
           }
         >
           <div
-            className="react-cookie-law-msg"
+            className="react-cookie-law-container"
             style={
               Object {
-                "color": "#000000",
-                "fontSize": "10pt",
-                "fontWeight": "400",
-                "lineHeight": "130%",
-                "minHeight": "32px",
-                "padding": "10px 0",
+                "marginLeft": "auto",
+                "marginRight": "auto",
+                "maxWidth": "960px",
+                "overflow": "hidden",
               }
             }
           >
-            Custom text
-          </div>
-          <div
-            className="react-cookie-law-select-pane"
-            style={
-              Object {
-                "display": "table-cell",
-                "padding": "3px 0px 10px 0px",
-              }
-            }
-          >
-            <CookieOption
-              checked={true}
-              disabled={true}
-              id="check-required-cookies"
-              styles={
-                Object {
-                  "checkboxStyle": Object {
-                    "cursor": "pointer",
-                    "height": "14px",
-                    "left": "0",
-                    "position": "absolute",
-                    "top": "4px",
-                    "width": "14px",
-                    "zIndex": "2",
-                  },
-                  "optionLabelStyle": Object {
-                    "color": "#c6c6c6",
-                    "cursor": "default",
-                    "display": "inline-block",
-                    "fontSize": "12pt",
-                    "height": "auto",
-                    "left": "0",
-                    "minHeight": "14px",
-                    "padding": "1px 0 0 20px",
-                    "position": "relative",
-                    "top": "0",
-                    "verticalAlign": "top",
-                    "width": "auto",
-                    "zIndex": "1",
-                  },
-                  "optionWrapperStyle": Object {
-                    "display": "inline-block",
-                    "float": "left",
-                    "marginLeft": "7px",
-                    "marginRight": "7px",
-                    "position": "relative",
-                  },
-                }
-              }
-              text="Necessary"
-            />
-            <CookieOption
-              checked={true}
-              id="check-preferences-cookies"
-              onChange={[Function]}
-              styles={
-                Object {
-                  "checkboxStyle": Object {
-                    "cursor": "pointer",
-                    "height": "14px",
-                    "left": "0",
-                    "position": "absolute",
-                    "top": "4px",
-                    "width": "14px",
-                    "zIndex": "2",
-                  },
-                  "optionLabelStyle": Object {
-                    "color": "#c6c6c6",
-                    "cursor": "default",
-                    "display": "inline-block",
-                    "fontSize": "12pt",
-                    "height": "auto",
-                    "left": "0",
-                    "minHeight": "14px",
-                    "padding": "1px 0 0 20px",
-                    "position": "relative",
-                    "top": "0",
-                    "verticalAlign": "top",
-                    "width": "auto",
-                    "zIndex": "1",
-                  },
-                  "optionWrapperStyle": Object {
-                    "display": "inline-block",
-                    "float": "left",
-                    "marginLeft": "7px",
-                    "marginRight": "7px",
-                    "position": "relative",
-                  },
-                }
-              }
-              text="Preferences"
-            />
-            <CookieOption
-              checked={true}
-              id="check-statistics-cookies"
-              onChange={[Function]}
-              styles={
-                Object {
-                  "checkboxStyle": Object {
-                    "cursor": "pointer",
-                    "height": "14px",
-                    "left": "0",
-                    "position": "absolute",
-                    "top": "4px",
-                    "width": "14px",
-                    "zIndex": "2",
-                  },
-                  "optionLabelStyle": Object {
-                    "color": "#c6c6c6",
-                    "cursor": "default",
-                    "display": "inline-block",
-                    "fontSize": "12pt",
-                    "height": "auto",
-                    "left": "0",
-                    "minHeight": "14px",
-                    "padding": "1px 0 0 20px",
-                    "position": "relative",
-                    "top": "0",
-                    "verticalAlign": "top",
-                    "width": "auto",
-                    "zIndex": "1",
-                  },
-                  "optionWrapperStyle": Object {
-                    "display": "inline-block",
-                    "float": "left",
-                    "marginLeft": "7px",
-                    "marginRight": "7px",
-                    "position": "relative",
-                  },
-                }
-              }
-              text="Statistics"
-            />
-            <CookieOption
-              id="check-marketing-cookies"
-              onChange={[Function]}
-              styles={
-                Object {
-                  "checkboxStyle": Object {
-                    "cursor": "pointer",
-                    "height": "14px",
-                    "left": "0",
-                    "position": "absolute",
-                    "top": "4px",
-                    "width": "14px",
-                    "zIndex": "2",
-                  },
-                  "optionLabelStyle": Object {
-                    "color": "#c6c6c6",
-                    "cursor": "default",
-                    "display": "inline-block",
-                    "fontSize": "12pt",
-                    "height": "auto",
-                    "left": "0",
-                    "minHeight": "14px",
-                    "padding": "1px 0 0 20px",
-                    "position": "relative",
-                    "top": "0",
-                    "verticalAlign": "top",
-                    "width": "auto",
-                    "zIndex": "1",
-                  },
-                  "optionWrapperStyle": Object {
-                    "display": "inline-block",
-                    "float": "left",
-                    "marginLeft": "7px",
-                    "marginRight": "7px",
-                    "position": "relative",
-                  },
-                }
-              }
-              text="Marketing"
-            />
-          </div>
-          <a
-            className="react-cookie-law-policy"
-            href="/#"
-            style={
-              Object {
-                "color": "#000000",
-                "fontSize": "10pt",
-                "marginLeft": "10px",
-                "textDecoration": "underline",
-              }
-            }
-            target="_blank"
-          >
-            Privacy Policy
-          </a>
-          <div
-            className="react-cookie-law-button-wrapper"
-            style={
-              Object {
-                "float": "right",
-              }
-            }
-          >
-            <button
-              className="react-cookie-law-accept-btn"
-              onClick={[Function]}
-              style={
-                Object {
-                  "backgroundColor": "#000000",
-                  "color": "#ffffff",
-                  "cursor": "pointer",
-                  "display": "inline-block",
-                  "fontSize": "10pt",
-                  "fontWeight": "400",
-                  "marginLeft": "5px",
-                  "marginRight": "5px",
-                  "minWidth": "80px",
-                  "padding": "3px",
-                  "textAlign": "center",
-                  "textDecoration": "none",
-                  "whiteSpace": "nowrap",
-                }
-              }
-              type="button"
-            >
-              <span>
-                Accept
-              </span>
-            </button>
-            <button
-              className="react-cookie-law-accept-all-btn"
-              onClick={[Function]}
-              style={
-                Object {
-                  "backgroundColor": "#000000",
-                  "color": "#ffffff",
-                  "cursor": "pointer",
-                  "display": "inline-block",
-                  "fontSize": "10pt",
-                  "fontWeight": "400",
-                  "marginLeft": "5px",
-                  "marginRight": "5px",
-                  "minWidth": "80px",
-                  "padding": "3px",
-                  "textAlign": "center",
-                  "textDecoration": "none",
-                  "whiteSpace": "nowrap",
-                }
-              }
-              type="button"
-            >
-              <span>
-                Accept All
-              </span>
-            </button>
-          </div>
-        </div>,
-        "className": "react-cookie-law-dialog ",
-        "style": Object {
-          "backgroundColor": "#f8f7f7",
-          "left": "0",
-          "padding": "10px",
-          "position": "fixed",
-          "right": "0",
-          "top": "0",
-          "zIndex": "100000",
-        },
-      },
-      "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
             <div
               className="react-cookie-law-msg"
               style={
@@ -1468,7 +62,7 @@ ShallowWrapper {
               }
             >
               Custom text
-            </div>,
+            </div>
             <div
               className="react-cookie-law-select-pane"
               style={
@@ -1641,7 +235,7 @@ ShallowWrapper {
                 }
                 text="Marketing"
               />
-            </div>,
+            </div>
             <a
               className="react-cookie-law-policy"
               href="/#"
@@ -1656,7 +250,7 @@ ShallowWrapper {
               target="_blank"
             >
               Privacy Policy
-            </a>,
+            </a>
             <div
               className="react-cookie-law-button-wrapper"
               style={
@@ -1666,25 +260,8 @@ ShallowWrapper {
               }
             >
               <button
-                className="react-cookie-law-accept-btn"
+                className="react-cookie-law-accept-btn btn btn-outline-secondary"
                 onClick={[Function]}
-                style={
-                  Object {
-                    "backgroundColor": "#000000",
-                    "color": "#ffffff",
-                    "cursor": "pointer",
-                    "display": "inline-block",
-                    "fontSize": "10pt",
-                    "fontWeight": "400",
-                    "marginLeft": "5px",
-                    "marginRight": "5px",
-                    "minWidth": "80px",
-                    "padding": "3px",
-                    "textAlign": "center",
-                    "textDecoration": "none",
-                    "whiteSpace": "nowrap",
-                  }
-                }
                 type="button"
               >
                 <span>
@@ -1692,69 +269,321 @@ ShallowWrapper {
                 </span>
               </button>
               <button
-                className="react-cookie-law-accept-all-btn"
+                className="react-cookie-law-accept-all-btn btn btn-primary"
                 onClick={[Function]}
-                style={
-                  Object {
-                    "backgroundColor": "#000000",
-                    "color": "#ffffff",
-                    "cursor": "pointer",
-                    "display": "inline-block",
-                    "fontSize": "10pt",
-                    "fontWeight": "400",
-                    "marginLeft": "5px",
-                    "marginRight": "5px",
-                    "minWidth": "80px",
-                    "padding": "3px",
-                    "textAlign": "center",
-                    "textDecoration": "none",
-                    "whiteSpace": "nowrap",
-                  }
-                }
                 type="button"
               >
                 <span>
                   Accept All
                 </span>
               </button>
-            </div>,
-          ],
-          "className": "react-cookie-law-container",
+            </div>
+          </div>
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "react-cookie-law-background",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="react-cookie-law-container"
+            style={
+              Object {
+                "marginLeft": "auto",
+                "marginRight": "auto",
+                "maxWidth": "960px",
+                "overflow": "hidden",
+              }
+            }
+          >
+            <div
+              className="react-cookie-law-msg"
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontSize": "10pt",
+                  "fontWeight": "400",
+                  "lineHeight": "130%",
+                  "minHeight": "32px",
+                  "padding": "10px 0",
+                }
+              }
+            >
+              Custom text
+            </div>
+            <div
+              className="react-cookie-law-select-pane"
+              style={
+                Object {
+                  "display": "table-cell",
+                  "padding": "3px 0px 10px 0px",
+                }
+              }
+            >
+              <CookieOption
+                checked={true}
+                disabled={true}
+                id="check-required-cookies"
+                styles={
+                  Object {
+                    "checkboxStyle": Object {
+                      "cursor": "pointer",
+                      "height": "14px",
+                      "left": "0",
+                      "position": "absolute",
+                      "top": "4px",
+                      "width": "14px",
+                      "zIndex": "2",
+                    },
+                    "optionLabelStyle": Object {
+                      "color": "#c6c6c6",
+                      "cursor": "default",
+                      "display": "inline-block",
+                      "fontSize": "12pt",
+                      "height": "auto",
+                      "left": "0",
+                      "minHeight": "14px",
+                      "padding": "1px 0 0 20px",
+                      "position": "relative",
+                      "top": "0",
+                      "verticalAlign": "top",
+                      "width": "auto",
+                      "zIndex": "1",
+                    },
+                    "optionWrapperStyle": Object {
+                      "display": "inline-block",
+                      "float": "left",
+                      "marginLeft": "7px",
+                      "marginRight": "7px",
+                      "position": "relative",
+                    },
+                  }
+                }
+                text="Necessary"
+              />
+              <CookieOption
+                checked={true}
+                id="check-preferences-cookies"
+                onChange={[Function]}
+                styles={
+                  Object {
+                    "checkboxStyle": Object {
+                      "cursor": "pointer",
+                      "height": "14px",
+                      "left": "0",
+                      "position": "absolute",
+                      "top": "4px",
+                      "width": "14px",
+                      "zIndex": "2",
+                    },
+                    "optionLabelStyle": Object {
+                      "color": "#c6c6c6",
+                      "cursor": "default",
+                      "display": "inline-block",
+                      "fontSize": "12pt",
+                      "height": "auto",
+                      "left": "0",
+                      "minHeight": "14px",
+                      "padding": "1px 0 0 20px",
+                      "position": "relative",
+                      "top": "0",
+                      "verticalAlign": "top",
+                      "width": "auto",
+                      "zIndex": "1",
+                    },
+                    "optionWrapperStyle": Object {
+                      "display": "inline-block",
+                      "float": "left",
+                      "marginLeft": "7px",
+                      "marginRight": "7px",
+                      "position": "relative",
+                    },
+                  }
+                }
+                text="Preferences"
+              />
+              <CookieOption
+                checked={true}
+                id="check-statistics-cookies"
+                onChange={[Function]}
+                styles={
+                  Object {
+                    "checkboxStyle": Object {
+                      "cursor": "pointer",
+                      "height": "14px",
+                      "left": "0",
+                      "position": "absolute",
+                      "top": "4px",
+                      "width": "14px",
+                      "zIndex": "2",
+                    },
+                    "optionLabelStyle": Object {
+                      "color": "#c6c6c6",
+                      "cursor": "default",
+                      "display": "inline-block",
+                      "fontSize": "12pt",
+                      "height": "auto",
+                      "left": "0",
+                      "minHeight": "14px",
+                      "padding": "1px 0 0 20px",
+                      "position": "relative",
+                      "top": "0",
+                      "verticalAlign": "top",
+                      "width": "auto",
+                      "zIndex": "1",
+                    },
+                    "optionWrapperStyle": Object {
+                      "display": "inline-block",
+                      "float": "left",
+                      "marginLeft": "7px",
+                      "marginRight": "7px",
+                      "position": "relative",
+                    },
+                  }
+                }
+                text="Statistics"
+              />
+              <CookieOption
+                id="check-marketing-cookies"
+                onChange={[Function]}
+                styles={
+                  Object {
+                    "checkboxStyle": Object {
+                      "cursor": "pointer",
+                      "height": "14px",
+                      "left": "0",
+                      "position": "absolute",
+                      "top": "4px",
+                      "width": "14px",
+                      "zIndex": "2",
+                    },
+                    "optionLabelStyle": Object {
+                      "color": "#c6c6c6",
+                      "cursor": "default",
+                      "display": "inline-block",
+                      "fontSize": "12pt",
+                      "height": "auto",
+                      "left": "0",
+                      "minHeight": "14px",
+                      "padding": "1px 0 0 20px",
+                      "position": "relative",
+                      "top": "0",
+                      "verticalAlign": "top",
+                      "width": "auto",
+                      "zIndex": "1",
+                    },
+                    "optionWrapperStyle": Object {
+                      "display": "inline-block",
+                      "float": "left",
+                      "marginLeft": "7px",
+                      "marginRight": "7px",
+                      "position": "relative",
+                    },
+                  }
+                }
+                text="Marketing"
+              />
+            </div>
+            <a
+              className="react-cookie-law-policy"
+              href="/#"
+              style={
+                Object {
+                  "color": "#000000",
+                  "fontSize": "10pt",
+                  "marginLeft": "10px",
+                  "textDecoration": "underline",
+                }
+              }
+              target="_blank"
+            >
+              Privacy Policy
+            </a>
+            <div
+              className="react-cookie-law-button-wrapper"
+              style={
+                Object {
+                  "float": "right",
+                }
+              }
+            >
+              <button
+                className="react-cookie-law-accept-btn btn btn-outline-secondary"
+                onClick={[Function]}
+                type="button"
+              >
+                <span>
+                  Accept
+                </span>
+              </button>
+              <button
+                className="react-cookie-law-accept-all-btn btn btn-primary"
+                onClick={[Function]}
+                type="button"
+              >
+                <span>
+                  Accept All
+                </span>
+              </button>
+            </div>
+          </div>,
+          "className": "react-cookie-law-dialog ",
           "style": Object {
-            "marginLeft": "auto",
-            "marginRight": "auto",
-            "maxWidth": "960px",
-            "overflow": "hidden",
+            "backgroundColor": "#f8f7f7",
+            "left": "0",
+            "padding": "10px",
+            "position": "fixed",
+            "right": "0",
+            "top": "0",
+            "zIndex": "100000",
           },
         },
         "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Custom text",
-              "className": "react-cookie-law-msg",
-              "style": Object {
-                "color": "#000000",
-                "fontSize": "10pt",
-                "fontWeight": "400",
-                "lineHeight": "130%",
-                "minHeight": "32px",
-                "padding": "10px 0",
-              },
-            },
-            "ref": null,
-            "rendered": "Custom text",
-            "type": "div",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="react-cookie-law-msg"
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontSize": "10pt",
+                    "fontWeight": "400",
+                    "lineHeight": "130%",
+                    "minHeight": "32px",
+                    "padding": "10px 0",
+                  }
+                }
+              >
+                Custom text
+              </div>,
+              <div
+                className="react-cookie-law-select-pane"
+                style={
+                  Object {
+                    "display": "table-cell",
+                    "padding": "3px 0px 10px 0px",
+                  }
+                }
+              >
                 <CookieOption
                   checked={true}
                   disabled={true}
@@ -1795,7 +624,7 @@ ShallowWrapper {
                     }
                   }
                   text="Necessary"
-                />,
+                />
                 <CookieOption
                   checked={true}
                   id="check-preferences-cookies"
@@ -1836,7 +665,7 @@ ShallowWrapper {
                     }
                   }
                   text="Preferences"
-                />,
+                />
                 <CookieOption
                   checked={true}
                   id="check-statistics-cookies"
@@ -1877,7 +706,7 @@ ShallowWrapper {
                     }
                   }
                   text="Statistics"
-                />,
+                />
                 <CookieOption
                   id="check-marketing-cookies"
                   onChange={[Function]}
@@ -1917,383 +746,1858 @@ ShallowWrapper {
                     }
                   }
                   text="Marketing"
-                />,
-              ],
-              "className": "react-cookie-law-select-pane",
-              "style": Object {
-                "display": "table-cell",
-                "padding": "3px 0px 10px 0px",
-              },
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "class",
-                "props": Object {
-                  "checked": true,
-                  "disabled": true,
-                  "id": "check-required-cookies",
-                  "styles": Object {
-                    "checkboxStyle": Object {
-                      "cursor": "pointer",
-                      "height": "14px",
-                      "left": "0",
-                      "position": "absolute",
-                      "top": "4px",
-                      "width": "14px",
-                      "zIndex": "2",
-                    },
-                    "optionLabelStyle": Object {
-                      "color": "#c6c6c6",
-                      "cursor": "default",
-                      "display": "inline-block",
-                      "fontSize": "12pt",
-                      "height": "auto",
-                      "left": "0",
-                      "minHeight": "14px",
-                      "padding": "1px 0 0 20px",
-                      "position": "relative",
-                      "top": "0",
-                      "verticalAlign": "top",
-                      "width": "auto",
-                      "zIndex": "1",
-                    },
-                    "optionWrapperStyle": Object {
-                      "display": "inline-block",
-                      "float": "left",
-                      "marginLeft": "7px",
-                      "marginRight": "7px",
-                      "position": "relative",
-                    },
-                  },
-                  "text": "Necessary",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "class",
-                "props": Object {
-                  "checked": true,
-                  "id": "check-preferences-cookies",
-                  "onChange": [Function],
-                  "styles": Object {
-                    "checkboxStyle": Object {
-                      "cursor": "pointer",
-                      "height": "14px",
-                      "left": "0",
-                      "position": "absolute",
-                      "top": "4px",
-                      "width": "14px",
-                      "zIndex": "2",
-                    },
-                    "optionLabelStyle": Object {
-                      "color": "#c6c6c6",
-                      "cursor": "default",
-                      "display": "inline-block",
-                      "fontSize": "12pt",
-                      "height": "auto",
-                      "left": "0",
-                      "minHeight": "14px",
-                      "padding": "1px 0 0 20px",
-                      "position": "relative",
-                      "top": "0",
-                      "verticalAlign": "top",
-                      "width": "auto",
-                      "zIndex": "1",
-                    },
-                    "optionWrapperStyle": Object {
-                      "display": "inline-block",
-                      "float": "left",
-                      "marginLeft": "7px",
-                      "marginRight": "7px",
-                      "position": "relative",
-                    },
-                  },
-                  "text": "Preferences",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "class",
-                "props": Object {
-                  "checked": true,
-                  "id": "check-statistics-cookies",
-                  "onChange": [Function],
-                  "styles": Object {
-                    "checkboxStyle": Object {
-                      "cursor": "pointer",
-                      "height": "14px",
-                      "left": "0",
-                      "position": "absolute",
-                      "top": "4px",
-                      "width": "14px",
-                      "zIndex": "2",
-                    },
-                    "optionLabelStyle": Object {
-                      "color": "#c6c6c6",
-                      "cursor": "default",
-                      "display": "inline-block",
-                      "fontSize": "12pt",
-                      "height": "auto",
-                      "left": "0",
-                      "minHeight": "14px",
-                      "padding": "1px 0 0 20px",
-                      "position": "relative",
-                      "top": "0",
-                      "verticalAlign": "top",
-                      "width": "auto",
-                      "zIndex": "1",
-                    },
-                    "optionWrapperStyle": Object {
-                      "display": "inline-block",
-                      "float": "left",
-                      "marginLeft": "7px",
-                      "marginRight": "7px",
-                      "position": "relative",
-                    },
-                  },
-                  "text": "Statistics",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "class",
-                "props": Object {
-                  "id": "check-marketing-cookies",
-                  "onChange": [Function],
-                  "styles": Object {
-                    "checkboxStyle": Object {
-                      "cursor": "pointer",
-                      "height": "14px",
-                      "left": "0",
-                      "position": "absolute",
-                      "top": "4px",
-                      "width": "14px",
-                      "zIndex": "2",
-                    },
-                    "optionLabelStyle": Object {
-                      "color": "#c6c6c6",
-                      "cursor": "default",
-                      "display": "inline-block",
-                      "fontSize": "12pt",
-                      "height": "auto",
-                      "left": "0",
-                      "minHeight": "14px",
-                      "padding": "1px 0 0 20px",
-                      "position": "relative",
-                      "top": "0",
-                      "verticalAlign": "top",
-                      "width": "auto",
-                      "zIndex": "1",
-                    },
-                    "optionWrapperStyle": Object {
-                      "display": "inline-block",
-                      "float": "left",
-                      "marginLeft": "7px",
-                      "marginRight": "7px",
-                      "position": "relative",
-                    },
-                  },
-                  "text": "Marketing",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
+                />
+              </div>,
+              <a
+                className="react-cookie-law-policy"
+                href="/#"
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontSize": "10pt",
+                    "marginLeft": "10px",
+                    "textDecoration": "underline",
+                  }
+                }
+                target="_blank"
+              >
+                Privacy Policy
+              </a>,
+              <div
+                className="react-cookie-law-button-wrapper"
+                style={
+                  Object {
+                    "float": "right",
+                  }
+                }
+              >
+                <button
+                  className="react-cookie-law-accept-btn btn btn-outline-secondary"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <span>
+                    Accept
+                  </span>
+                </button>
+                <button
+                  className="react-cookie-law-accept-all-btn btn btn-primary"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <span>
+                    Accept All
+                  </span>
+                </button>
+              </div>,
             ],
-            "type": "div",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Privacy Policy",
-              "className": "react-cookie-law-policy",
-              "href": "/#",
-              "style": Object {
-                "color": "#000000",
-                "fontSize": "10pt",
-                "marginLeft": "10px",
-                "textDecoration": "underline",
-              },
-              "target": "_blank",
+            "className": "react-cookie-law-container",
+            "style": Object {
+              "marginLeft": "auto",
+              "marginRight": "auto",
+              "maxWidth": "960px",
+              "overflow": "hidden",
             },
-            "ref": null,
-            "rendered": "Privacy Policy",
-            "type": "a",
           },
-          Object {
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Custom text",
+                "className": "react-cookie-law-msg",
+                "style": Object {
+                  "color": "#000000",
+                  "fontSize": "10pt",
+                  "fontWeight": "400",
+                  "lineHeight": "130%",
+                  "minHeight": "32px",
+                  "padding": "10px 0",
+                },
+              },
+              "ref": null,
+              "rendered": "Custom text",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <CookieOption
+                    checked={true}
+                    disabled={true}
+                    id="check-required-cookies"
+                    styles={
+                      Object {
+                        "checkboxStyle": Object {
+                          "cursor": "pointer",
+                          "height": "14px",
+                          "left": "0",
+                          "position": "absolute",
+                          "top": "4px",
+                          "width": "14px",
+                          "zIndex": "2",
+                        },
+                        "optionLabelStyle": Object {
+                          "color": "#c6c6c6",
+                          "cursor": "default",
+                          "display": "inline-block",
+                          "fontSize": "12pt",
+                          "height": "auto",
+                          "left": "0",
+                          "minHeight": "14px",
+                          "padding": "1px 0 0 20px",
+                          "position": "relative",
+                          "top": "0",
+                          "verticalAlign": "top",
+                          "width": "auto",
+                          "zIndex": "1",
+                        },
+                        "optionWrapperStyle": Object {
+                          "display": "inline-block",
+                          "float": "left",
+                          "marginLeft": "7px",
+                          "marginRight": "7px",
+                          "position": "relative",
+                        },
+                      }
+                    }
+                    text="Necessary"
+                  />,
+                  <CookieOption
+                    checked={true}
+                    id="check-preferences-cookies"
+                    onChange={[Function]}
+                    styles={
+                      Object {
+                        "checkboxStyle": Object {
+                          "cursor": "pointer",
+                          "height": "14px",
+                          "left": "0",
+                          "position": "absolute",
+                          "top": "4px",
+                          "width": "14px",
+                          "zIndex": "2",
+                        },
+                        "optionLabelStyle": Object {
+                          "color": "#c6c6c6",
+                          "cursor": "default",
+                          "display": "inline-block",
+                          "fontSize": "12pt",
+                          "height": "auto",
+                          "left": "0",
+                          "minHeight": "14px",
+                          "padding": "1px 0 0 20px",
+                          "position": "relative",
+                          "top": "0",
+                          "verticalAlign": "top",
+                          "width": "auto",
+                          "zIndex": "1",
+                        },
+                        "optionWrapperStyle": Object {
+                          "display": "inline-block",
+                          "float": "left",
+                          "marginLeft": "7px",
+                          "marginRight": "7px",
+                          "position": "relative",
+                        },
+                      }
+                    }
+                    text="Preferences"
+                  />,
+                  <CookieOption
+                    checked={true}
+                    id="check-statistics-cookies"
+                    onChange={[Function]}
+                    styles={
+                      Object {
+                        "checkboxStyle": Object {
+                          "cursor": "pointer",
+                          "height": "14px",
+                          "left": "0",
+                          "position": "absolute",
+                          "top": "4px",
+                          "width": "14px",
+                          "zIndex": "2",
+                        },
+                        "optionLabelStyle": Object {
+                          "color": "#c6c6c6",
+                          "cursor": "default",
+                          "display": "inline-block",
+                          "fontSize": "12pt",
+                          "height": "auto",
+                          "left": "0",
+                          "minHeight": "14px",
+                          "padding": "1px 0 0 20px",
+                          "position": "relative",
+                          "top": "0",
+                          "verticalAlign": "top",
+                          "width": "auto",
+                          "zIndex": "1",
+                        },
+                        "optionWrapperStyle": Object {
+                          "display": "inline-block",
+                          "float": "left",
+                          "marginLeft": "7px",
+                          "marginRight": "7px",
+                          "position": "relative",
+                        },
+                      }
+                    }
+                    text="Statistics"
+                  />,
+                  <CookieOption
+                    id="check-marketing-cookies"
+                    onChange={[Function]}
+                    styles={
+                      Object {
+                        "checkboxStyle": Object {
+                          "cursor": "pointer",
+                          "height": "14px",
+                          "left": "0",
+                          "position": "absolute",
+                          "top": "4px",
+                          "width": "14px",
+                          "zIndex": "2",
+                        },
+                        "optionLabelStyle": Object {
+                          "color": "#c6c6c6",
+                          "cursor": "default",
+                          "display": "inline-block",
+                          "fontSize": "12pt",
+                          "height": "auto",
+                          "left": "0",
+                          "minHeight": "14px",
+                          "padding": "1px 0 0 20px",
+                          "position": "relative",
+                          "top": "0",
+                          "verticalAlign": "top",
+                          "width": "auto",
+                          "zIndex": "1",
+                        },
+                        "optionWrapperStyle": Object {
+                          "display": "inline-block",
+                          "float": "left",
+                          "marginLeft": "7px",
+                          "marginRight": "7px",
+                          "position": "relative",
+                        },
+                      }
+                    }
+                    text="Marketing"
+                  />,
+                ],
+                "className": "react-cookie-law-select-pane",
+                "style": Object {
+                  "display": "table-cell",
+                  "padding": "3px 0px 10px 0px",
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "checked": true,
+                    "disabled": true,
+                    "id": "check-required-cookies",
+                    "styles": Object {
+                      "checkboxStyle": Object {
+                        "cursor": "pointer",
+                        "height": "14px",
+                        "left": "0",
+                        "position": "absolute",
+                        "top": "4px",
+                        "width": "14px",
+                        "zIndex": "2",
+                      },
+                      "optionLabelStyle": Object {
+                        "color": "#c6c6c6",
+                        "cursor": "default",
+                        "display": "inline-block",
+                        "fontSize": "12pt",
+                        "height": "auto",
+                        "left": "0",
+                        "minHeight": "14px",
+                        "padding": "1px 0 0 20px",
+                        "position": "relative",
+                        "top": "0",
+                        "verticalAlign": "top",
+                        "width": "auto",
+                        "zIndex": "1",
+                      },
+                      "optionWrapperStyle": Object {
+                        "display": "inline-block",
+                        "float": "left",
+                        "marginLeft": "7px",
+                        "marginRight": "7px",
+                        "position": "relative",
+                      },
+                    },
+                    "text": "Necessary",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "checked": true,
+                    "id": "check-preferences-cookies",
+                    "onChange": [Function],
+                    "styles": Object {
+                      "checkboxStyle": Object {
+                        "cursor": "pointer",
+                        "height": "14px",
+                        "left": "0",
+                        "position": "absolute",
+                        "top": "4px",
+                        "width": "14px",
+                        "zIndex": "2",
+                      },
+                      "optionLabelStyle": Object {
+                        "color": "#c6c6c6",
+                        "cursor": "default",
+                        "display": "inline-block",
+                        "fontSize": "12pt",
+                        "height": "auto",
+                        "left": "0",
+                        "minHeight": "14px",
+                        "padding": "1px 0 0 20px",
+                        "position": "relative",
+                        "top": "0",
+                        "verticalAlign": "top",
+                        "width": "auto",
+                        "zIndex": "1",
+                      },
+                      "optionWrapperStyle": Object {
+                        "display": "inline-block",
+                        "float": "left",
+                        "marginLeft": "7px",
+                        "marginRight": "7px",
+                        "position": "relative",
+                      },
+                    },
+                    "text": "Preferences",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "checked": true,
+                    "id": "check-statistics-cookies",
+                    "onChange": [Function],
+                    "styles": Object {
+                      "checkboxStyle": Object {
+                        "cursor": "pointer",
+                        "height": "14px",
+                        "left": "0",
+                        "position": "absolute",
+                        "top": "4px",
+                        "width": "14px",
+                        "zIndex": "2",
+                      },
+                      "optionLabelStyle": Object {
+                        "color": "#c6c6c6",
+                        "cursor": "default",
+                        "display": "inline-block",
+                        "fontSize": "12pt",
+                        "height": "auto",
+                        "left": "0",
+                        "minHeight": "14px",
+                        "padding": "1px 0 0 20px",
+                        "position": "relative",
+                        "top": "0",
+                        "verticalAlign": "top",
+                        "width": "auto",
+                        "zIndex": "1",
+                      },
+                      "optionWrapperStyle": Object {
+                        "display": "inline-block",
+                        "float": "left",
+                        "marginLeft": "7px",
+                        "marginRight": "7px",
+                        "position": "relative",
+                      },
+                    },
+                    "text": "Statistics",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "id": "check-marketing-cookies",
+                    "onChange": [Function],
+                    "styles": Object {
+                      "checkboxStyle": Object {
+                        "cursor": "pointer",
+                        "height": "14px",
+                        "left": "0",
+                        "position": "absolute",
+                        "top": "4px",
+                        "width": "14px",
+                        "zIndex": "2",
+                      },
+                      "optionLabelStyle": Object {
+                        "color": "#c6c6c6",
+                        "cursor": "default",
+                        "display": "inline-block",
+                        "fontSize": "12pt",
+                        "height": "auto",
+                        "left": "0",
+                        "minHeight": "14px",
+                        "padding": "1px 0 0 20px",
+                        "position": "relative",
+                        "top": "0",
+                        "verticalAlign": "top",
+                        "width": "auto",
+                        "zIndex": "1",
+                      },
+                      "optionWrapperStyle": Object {
+                        "display": "inline-block",
+                        "float": "left",
+                        "marginLeft": "7px",
+                        "marginRight": "7px",
+                        "position": "relative",
+                      },
+                    },
+                    "text": "Marketing",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Privacy Policy",
+                "className": "react-cookie-law-policy",
+                "href": "/#",
+                "style": Object {
+                  "color": "#000000",
+                  "fontSize": "10pt",
+                  "marginLeft": "10px",
+                  "textDecoration": "underline",
+                },
+                "target": "_blank",
+              },
+              "ref": null,
+              "rendered": "Privacy Policy",
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  false,
+                  <button
+                    className="react-cookie-law-accept-btn btn btn-outline-secondary"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <span>
+                      Accept
+                    </span>
+                  </button>,
+                  <button
+                    className="react-cookie-law-accept-all-btn btn btn-primary"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <span>
+                      Accept All
+                    </span>
+                  </button>,
+                ],
+                "className": "react-cookie-law-button-wrapper",
+                "style": Object {
+                  "float": "right",
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                false,
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <span>
+                      Accept
+                    </span>,
+                    "className": "react-cookie-law-accept-btn btn btn-outline-secondary",
+                    "onClick": [Function],
+                    "type": "button",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Accept",
+                    },
+                    "ref": null,
+                    "rendered": "Accept",
+                    "type": "span",
+                  },
+                  "type": "button",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <span>
+                      Accept All
+                    </span>,
+                    "className": "react-cookie-law-accept-all-btn btn btn-primary",
+                    "onClick": [Function],
+                    "type": "button",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Accept All",
+                    },
+                    "ref": null,
+                    "rendered": "Accept All",
+                    "type": "span",
+                  },
+                  "type": "button",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <div
+            className="react-cookie-law-background"
+          />,
+          <div
+            className="react-cookie-law-dialog "
+            style={
+              Object {
+                "backgroundColor": "#f8f7f7",
+                "left": "0",
+                "padding": "10px",
+                "position": "fixed",
+                "right": "0",
+                "top": "0",
+                "zIndex": "100000",
+              }
+            }
+          >
+            <div
+              className="react-cookie-law-container"
+              style={
+                Object {
+                  "marginLeft": "auto",
+                  "marginRight": "auto",
+                  "maxWidth": "960px",
+                  "overflow": "hidden",
+                }
+              }
+            >
+              <div
+                className="react-cookie-law-msg"
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontSize": "10pt",
+                    "fontWeight": "400",
+                    "lineHeight": "130%",
+                    "minHeight": "32px",
+                    "padding": "10px 0",
+                  }
+                }
+              >
+                Custom text
+              </div>
+              <div
+                className="react-cookie-law-select-pane"
+                style={
+                  Object {
+                    "display": "table-cell",
+                    "padding": "3px 0px 10px 0px",
+                  }
+                }
+              >
+                <CookieOption
+                  checked={true}
+                  disabled={true}
+                  id="check-required-cookies"
+                  styles={
+                    Object {
+                      "checkboxStyle": Object {
+                        "cursor": "pointer",
+                        "height": "14px",
+                        "left": "0",
+                        "position": "absolute",
+                        "top": "4px",
+                        "width": "14px",
+                        "zIndex": "2",
+                      },
+                      "optionLabelStyle": Object {
+                        "color": "#c6c6c6",
+                        "cursor": "default",
+                        "display": "inline-block",
+                        "fontSize": "12pt",
+                        "height": "auto",
+                        "left": "0",
+                        "minHeight": "14px",
+                        "padding": "1px 0 0 20px",
+                        "position": "relative",
+                        "top": "0",
+                        "verticalAlign": "top",
+                        "width": "auto",
+                        "zIndex": "1",
+                      },
+                      "optionWrapperStyle": Object {
+                        "display": "inline-block",
+                        "float": "left",
+                        "marginLeft": "7px",
+                        "marginRight": "7px",
+                        "position": "relative",
+                      },
+                    }
+                  }
+                  text="Necessary"
+                />
+                <CookieOption
+                  checked={true}
+                  id="check-preferences-cookies"
+                  onChange={[Function]}
+                  styles={
+                    Object {
+                      "checkboxStyle": Object {
+                        "cursor": "pointer",
+                        "height": "14px",
+                        "left": "0",
+                        "position": "absolute",
+                        "top": "4px",
+                        "width": "14px",
+                        "zIndex": "2",
+                      },
+                      "optionLabelStyle": Object {
+                        "color": "#c6c6c6",
+                        "cursor": "default",
+                        "display": "inline-block",
+                        "fontSize": "12pt",
+                        "height": "auto",
+                        "left": "0",
+                        "minHeight": "14px",
+                        "padding": "1px 0 0 20px",
+                        "position": "relative",
+                        "top": "0",
+                        "verticalAlign": "top",
+                        "width": "auto",
+                        "zIndex": "1",
+                      },
+                      "optionWrapperStyle": Object {
+                        "display": "inline-block",
+                        "float": "left",
+                        "marginLeft": "7px",
+                        "marginRight": "7px",
+                        "position": "relative",
+                      },
+                    }
+                  }
+                  text="Preferences"
+                />
+                <CookieOption
+                  checked={true}
+                  id="check-statistics-cookies"
+                  onChange={[Function]}
+                  styles={
+                    Object {
+                      "checkboxStyle": Object {
+                        "cursor": "pointer",
+                        "height": "14px",
+                        "left": "0",
+                        "position": "absolute",
+                        "top": "4px",
+                        "width": "14px",
+                        "zIndex": "2",
+                      },
+                      "optionLabelStyle": Object {
+                        "color": "#c6c6c6",
+                        "cursor": "default",
+                        "display": "inline-block",
+                        "fontSize": "12pt",
+                        "height": "auto",
+                        "left": "0",
+                        "minHeight": "14px",
+                        "padding": "1px 0 0 20px",
+                        "position": "relative",
+                        "top": "0",
+                        "verticalAlign": "top",
+                        "width": "auto",
+                        "zIndex": "1",
+                      },
+                      "optionWrapperStyle": Object {
+                        "display": "inline-block",
+                        "float": "left",
+                        "marginLeft": "7px",
+                        "marginRight": "7px",
+                        "position": "relative",
+                      },
+                    }
+                  }
+                  text="Statistics"
+                />
+                <CookieOption
+                  id="check-marketing-cookies"
+                  onChange={[Function]}
+                  styles={
+                    Object {
+                      "checkboxStyle": Object {
+                        "cursor": "pointer",
+                        "height": "14px",
+                        "left": "0",
+                        "position": "absolute",
+                        "top": "4px",
+                        "width": "14px",
+                        "zIndex": "2",
+                      },
+                      "optionLabelStyle": Object {
+                        "color": "#c6c6c6",
+                        "cursor": "default",
+                        "display": "inline-block",
+                        "fontSize": "12pt",
+                        "height": "auto",
+                        "left": "0",
+                        "minHeight": "14px",
+                        "padding": "1px 0 0 20px",
+                        "position": "relative",
+                        "top": "0",
+                        "verticalAlign": "top",
+                        "width": "auto",
+                        "zIndex": "1",
+                      },
+                      "optionWrapperStyle": Object {
+                        "display": "inline-block",
+                        "float": "left",
+                        "marginLeft": "7px",
+                        "marginRight": "7px",
+                        "position": "relative",
+                      },
+                    }
+                  }
+                  text="Marketing"
+                />
+              </div>
+              <a
+                className="react-cookie-law-policy"
+                href="/#"
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontSize": "10pt",
+                    "marginLeft": "10px",
+                    "textDecoration": "underline",
+                  }
+                }
+                target="_blank"
+              >
+                Privacy Policy
+              </a>
+              <div
+                className="react-cookie-law-button-wrapper"
+                style={
+                  Object {
+                    "float": "right",
+                  }
+                }
+              >
+                <button
+                  className="react-cookie-law-accept-btn btn btn-outline-secondary"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <span>
+                    Accept
+                  </span>
+                </button>
+                <button
+                  className="react-cookie-law-accept-all-btn btn btn-primary"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <span>
+                    Accept All
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "react-cookie-law-background",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="react-cookie-law-container"
+              style={
+                Object {
+                  "marginLeft": "auto",
+                  "marginRight": "auto",
+                  "maxWidth": "960px",
+                  "overflow": "hidden",
+                }
+              }
+            >
+              <div
+                className="react-cookie-law-msg"
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontSize": "10pt",
+                    "fontWeight": "400",
+                    "lineHeight": "130%",
+                    "minHeight": "32px",
+                    "padding": "10px 0",
+                  }
+                }
+              >
+                Custom text
+              </div>
+              <div
+                className="react-cookie-law-select-pane"
+                style={
+                  Object {
+                    "display": "table-cell",
+                    "padding": "3px 0px 10px 0px",
+                  }
+                }
+              >
+                <CookieOption
+                  checked={true}
+                  disabled={true}
+                  id="check-required-cookies"
+                  styles={
+                    Object {
+                      "checkboxStyle": Object {
+                        "cursor": "pointer",
+                        "height": "14px",
+                        "left": "0",
+                        "position": "absolute",
+                        "top": "4px",
+                        "width": "14px",
+                        "zIndex": "2",
+                      },
+                      "optionLabelStyle": Object {
+                        "color": "#c6c6c6",
+                        "cursor": "default",
+                        "display": "inline-block",
+                        "fontSize": "12pt",
+                        "height": "auto",
+                        "left": "0",
+                        "minHeight": "14px",
+                        "padding": "1px 0 0 20px",
+                        "position": "relative",
+                        "top": "0",
+                        "verticalAlign": "top",
+                        "width": "auto",
+                        "zIndex": "1",
+                      },
+                      "optionWrapperStyle": Object {
+                        "display": "inline-block",
+                        "float": "left",
+                        "marginLeft": "7px",
+                        "marginRight": "7px",
+                        "position": "relative",
+                      },
+                    }
+                  }
+                  text="Necessary"
+                />
+                <CookieOption
+                  checked={true}
+                  id="check-preferences-cookies"
+                  onChange={[Function]}
+                  styles={
+                    Object {
+                      "checkboxStyle": Object {
+                        "cursor": "pointer",
+                        "height": "14px",
+                        "left": "0",
+                        "position": "absolute",
+                        "top": "4px",
+                        "width": "14px",
+                        "zIndex": "2",
+                      },
+                      "optionLabelStyle": Object {
+                        "color": "#c6c6c6",
+                        "cursor": "default",
+                        "display": "inline-block",
+                        "fontSize": "12pt",
+                        "height": "auto",
+                        "left": "0",
+                        "minHeight": "14px",
+                        "padding": "1px 0 0 20px",
+                        "position": "relative",
+                        "top": "0",
+                        "verticalAlign": "top",
+                        "width": "auto",
+                        "zIndex": "1",
+                      },
+                      "optionWrapperStyle": Object {
+                        "display": "inline-block",
+                        "float": "left",
+                        "marginLeft": "7px",
+                        "marginRight": "7px",
+                        "position": "relative",
+                      },
+                    }
+                  }
+                  text="Preferences"
+                />
+                <CookieOption
+                  checked={true}
+                  id="check-statistics-cookies"
+                  onChange={[Function]}
+                  styles={
+                    Object {
+                      "checkboxStyle": Object {
+                        "cursor": "pointer",
+                        "height": "14px",
+                        "left": "0",
+                        "position": "absolute",
+                        "top": "4px",
+                        "width": "14px",
+                        "zIndex": "2",
+                      },
+                      "optionLabelStyle": Object {
+                        "color": "#c6c6c6",
+                        "cursor": "default",
+                        "display": "inline-block",
+                        "fontSize": "12pt",
+                        "height": "auto",
+                        "left": "0",
+                        "minHeight": "14px",
+                        "padding": "1px 0 0 20px",
+                        "position": "relative",
+                        "top": "0",
+                        "verticalAlign": "top",
+                        "width": "auto",
+                        "zIndex": "1",
+                      },
+                      "optionWrapperStyle": Object {
+                        "display": "inline-block",
+                        "float": "left",
+                        "marginLeft": "7px",
+                        "marginRight": "7px",
+                        "position": "relative",
+                      },
+                    }
+                  }
+                  text="Statistics"
+                />
+                <CookieOption
+                  id="check-marketing-cookies"
+                  onChange={[Function]}
+                  styles={
+                    Object {
+                      "checkboxStyle": Object {
+                        "cursor": "pointer",
+                        "height": "14px",
+                        "left": "0",
+                        "position": "absolute",
+                        "top": "4px",
+                        "width": "14px",
+                        "zIndex": "2",
+                      },
+                      "optionLabelStyle": Object {
+                        "color": "#c6c6c6",
+                        "cursor": "default",
+                        "display": "inline-block",
+                        "fontSize": "12pt",
+                        "height": "auto",
+                        "left": "0",
+                        "minHeight": "14px",
+                        "padding": "1px 0 0 20px",
+                        "position": "relative",
+                        "top": "0",
+                        "verticalAlign": "top",
+                        "width": "auto",
+                        "zIndex": "1",
+                      },
+                      "optionWrapperStyle": Object {
+                        "display": "inline-block",
+                        "float": "left",
+                        "marginLeft": "7px",
+                        "marginRight": "7px",
+                        "position": "relative",
+                      },
+                    }
+                  }
+                  text="Marketing"
+                />
+              </div>
+              <a
+                className="react-cookie-law-policy"
+                href="/#"
+                style={
+                  Object {
+                    "color": "#000000",
+                    "fontSize": "10pt",
+                    "marginLeft": "10px",
+                    "textDecoration": "underline",
+                  }
+                }
+                target="_blank"
+              >
+                Privacy Policy
+              </a>
+              <div
+                className="react-cookie-law-button-wrapper"
+                style={
+                  Object {
+                    "float": "right",
+                  }
+                }
+              >
+                <button
+                  className="react-cookie-law-accept-btn btn btn-outline-secondary"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <span>
+                    Accept
+                  </span>
+                </button>
+                <button
+                  className="react-cookie-law-accept-all-btn btn btn-primary"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <span>
+                    Accept All
+                  </span>
+                </button>
+              </div>
+            </div>,
+            "className": "react-cookie-law-dialog ",
+            "style": Object {
+              "backgroundColor": "#f8f7f7",
+              "left": "0",
+              "padding": "10px",
+              "position": "fixed",
+              "right": "0",
+              "top": "0",
+              "zIndex": "100000",
+            },
+          },
+          "ref": null,
+          "rendered": Object {
             "instance": null,
             "key": undefined,
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                false,
-                <button
-                  className="react-cookie-law-accept-btn"
-                  onClick={[Function]}
+                <div
+                  className="react-cookie-law-msg"
                   style={
                     Object {
-                      "backgroundColor": "#000000",
-                      "color": "#ffffff",
-                      "cursor": "pointer",
-                      "display": "inline-block",
+                      "color": "#000000",
                       "fontSize": "10pt",
                       "fontWeight": "400",
-                      "marginLeft": "5px",
-                      "marginRight": "5px",
-                      "minWidth": "80px",
-                      "padding": "3px",
-                      "textAlign": "center",
-                      "textDecoration": "none",
-                      "whiteSpace": "nowrap",
+                      "lineHeight": "130%",
+                      "minHeight": "32px",
+                      "padding": "10px 0",
                     }
                   }
-                  type="button"
                 >
-                  <span>
-                    Accept
-                  </span>
-                </button>,
-                <button
-                  className="react-cookie-law-accept-all-btn"
-                  onClick={[Function]}
+                  Custom text
+                </div>,
+                <div
+                  className="react-cookie-law-select-pane"
                   style={
                     Object {
-                      "backgroundColor": "#000000",
-                      "color": "#ffffff",
-                      "cursor": "pointer",
-                      "display": "inline-block",
-                      "fontSize": "10pt",
-                      "fontWeight": "400",
-                      "marginLeft": "5px",
-                      "marginRight": "5px",
-                      "minWidth": "80px",
-                      "padding": "3px",
-                      "textAlign": "center",
-                      "textDecoration": "none",
-                      "whiteSpace": "nowrap",
+                      "display": "table-cell",
+                      "padding": "3px 0px 10px 0px",
                     }
                   }
-                  type="button"
                 >
-                  <span>
-                    Accept All
-                  </span>
-                </button>,
+                  <CookieOption
+                    checked={true}
+                    disabled={true}
+                    id="check-required-cookies"
+                    styles={
+                      Object {
+                        "checkboxStyle": Object {
+                          "cursor": "pointer",
+                          "height": "14px",
+                          "left": "0",
+                          "position": "absolute",
+                          "top": "4px",
+                          "width": "14px",
+                          "zIndex": "2",
+                        },
+                        "optionLabelStyle": Object {
+                          "color": "#c6c6c6",
+                          "cursor": "default",
+                          "display": "inline-block",
+                          "fontSize": "12pt",
+                          "height": "auto",
+                          "left": "0",
+                          "minHeight": "14px",
+                          "padding": "1px 0 0 20px",
+                          "position": "relative",
+                          "top": "0",
+                          "verticalAlign": "top",
+                          "width": "auto",
+                          "zIndex": "1",
+                        },
+                        "optionWrapperStyle": Object {
+                          "display": "inline-block",
+                          "float": "left",
+                          "marginLeft": "7px",
+                          "marginRight": "7px",
+                          "position": "relative",
+                        },
+                      }
+                    }
+                    text="Necessary"
+                  />
+                  <CookieOption
+                    checked={true}
+                    id="check-preferences-cookies"
+                    onChange={[Function]}
+                    styles={
+                      Object {
+                        "checkboxStyle": Object {
+                          "cursor": "pointer",
+                          "height": "14px",
+                          "left": "0",
+                          "position": "absolute",
+                          "top": "4px",
+                          "width": "14px",
+                          "zIndex": "2",
+                        },
+                        "optionLabelStyle": Object {
+                          "color": "#c6c6c6",
+                          "cursor": "default",
+                          "display": "inline-block",
+                          "fontSize": "12pt",
+                          "height": "auto",
+                          "left": "0",
+                          "minHeight": "14px",
+                          "padding": "1px 0 0 20px",
+                          "position": "relative",
+                          "top": "0",
+                          "verticalAlign": "top",
+                          "width": "auto",
+                          "zIndex": "1",
+                        },
+                        "optionWrapperStyle": Object {
+                          "display": "inline-block",
+                          "float": "left",
+                          "marginLeft": "7px",
+                          "marginRight": "7px",
+                          "position": "relative",
+                        },
+                      }
+                    }
+                    text="Preferences"
+                  />
+                  <CookieOption
+                    checked={true}
+                    id="check-statistics-cookies"
+                    onChange={[Function]}
+                    styles={
+                      Object {
+                        "checkboxStyle": Object {
+                          "cursor": "pointer",
+                          "height": "14px",
+                          "left": "0",
+                          "position": "absolute",
+                          "top": "4px",
+                          "width": "14px",
+                          "zIndex": "2",
+                        },
+                        "optionLabelStyle": Object {
+                          "color": "#c6c6c6",
+                          "cursor": "default",
+                          "display": "inline-block",
+                          "fontSize": "12pt",
+                          "height": "auto",
+                          "left": "0",
+                          "minHeight": "14px",
+                          "padding": "1px 0 0 20px",
+                          "position": "relative",
+                          "top": "0",
+                          "verticalAlign": "top",
+                          "width": "auto",
+                          "zIndex": "1",
+                        },
+                        "optionWrapperStyle": Object {
+                          "display": "inline-block",
+                          "float": "left",
+                          "marginLeft": "7px",
+                          "marginRight": "7px",
+                          "position": "relative",
+                        },
+                      }
+                    }
+                    text="Statistics"
+                  />
+                  <CookieOption
+                    id="check-marketing-cookies"
+                    onChange={[Function]}
+                    styles={
+                      Object {
+                        "checkboxStyle": Object {
+                          "cursor": "pointer",
+                          "height": "14px",
+                          "left": "0",
+                          "position": "absolute",
+                          "top": "4px",
+                          "width": "14px",
+                          "zIndex": "2",
+                        },
+                        "optionLabelStyle": Object {
+                          "color": "#c6c6c6",
+                          "cursor": "default",
+                          "display": "inline-block",
+                          "fontSize": "12pt",
+                          "height": "auto",
+                          "left": "0",
+                          "minHeight": "14px",
+                          "padding": "1px 0 0 20px",
+                          "position": "relative",
+                          "top": "0",
+                          "verticalAlign": "top",
+                          "width": "auto",
+                          "zIndex": "1",
+                        },
+                        "optionWrapperStyle": Object {
+                          "display": "inline-block",
+                          "float": "left",
+                          "marginLeft": "7px",
+                          "marginRight": "7px",
+                          "position": "relative",
+                        },
+                      }
+                    }
+                    text="Marketing"
+                  />
+                </div>,
+                <a
+                  className="react-cookie-law-policy"
+                  href="/#"
+                  style={
+                    Object {
+                      "color": "#000000",
+                      "fontSize": "10pt",
+                      "marginLeft": "10px",
+                      "textDecoration": "underline",
+                    }
+                  }
+                  target="_blank"
+                >
+                  Privacy Policy
+                </a>,
+                <div
+                  className="react-cookie-law-button-wrapper"
+                  style={
+                    Object {
+                      "float": "right",
+                    }
+                  }
+                >
+                  <button
+                    className="react-cookie-law-accept-btn btn btn-outline-secondary"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <span>
+                      Accept
+                    </span>
+                  </button>
+                  <button
+                    className="react-cookie-law-accept-all-btn btn btn-primary"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <span>
+                      Accept All
+                    </span>
+                  </button>
+                </div>,
               ],
-              "className": "react-cookie-law-button-wrapper",
+              "className": "react-cookie-law-container",
               "style": Object {
-                "float": "right",
+                "marginLeft": "auto",
+                "marginRight": "auto",
+                "maxWidth": "960px",
+                "overflow": "hidden",
               },
             },
             "ref": null,
             "rendered": Array [
-              false,
               Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": <span>
-                    Accept
-                  </span>,
-                  "className": "react-cookie-law-accept-btn",
-                  "onClick": [Function],
+                  "children": "Custom text",
+                  "className": "react-cookie-law-msg",
                   "style": Object {
-                    "backgroundColor": "#000000",
-                    "color": "#ffffff",
-                    "cursor": "pointer",
-                    "display": "inline-block",
+                    "color": "#000000",
                     "fontSize": "10pt",
                     "fontWeight": "400",
-                    "marginLeft": "5px",
-                    "marginRight": "5px",
-                    "minWidth": "80px",
-                    "padding": "3px",
-                    "textAlign": "center",
-                    "textDecoration": "none",
-                    "whiteSpace": "nowrap",
+                    "lineHeight": "130%",
+                    "minHeight": "32px",
+                    "padding": "10px 0",
                   },
-                  "type": "button",
                 },
                 "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": "Accept",
-                  },
-                  "ref": null,
-                  "rendered": "Accept",
-                  "type": "span",
-                },
-                "type": "button",
+                "rendered": "Custom text",
+                "type": "div",
               },
               Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": <span>
-                    Accept All
-                  </span>,
-                  "className": "react-cookie-law-accept-all-btn",
-                  "onClick": [Function],
+                  "children": Array [
+                    <CookieOption
+                      checked={true}
+                      disabled={true}
+                      id="check-required-cookies"
+                      styles={
+                        Object {
+                          "checkboxStyle": Object {
+                            "cursor": "pointer",
+                            "height": "14px",
+                            "left": "0",
+                            "position": "absolute",
+                            "top": "4px",
+                            "width": "14px",
+                            "zIndex": "2",
+                          },
+                          "optionLabelStyle": Object {
+                            "color": "#c6c6c6",
+                            "cursor": "default",
+                            "display": "inline-block",
+                            "fontSize": "12pt",
+                            "height": "auto",
+                            "left": "0",
+                            "minHeight": "14px",
+                            "padding": "1px 0 0 20px",
+                            "position": "relative",
+                            "top": "0",
+                            "verticalAlign": "top",
+                            "width": "auto",
+                            "zIndex": "1",
+                          },
+                          "optionWrapperStyle": Object {
+                            "display": "inline-block",
+                            "float": "left",
+                            "marginLeft": "7px",
+                            "marginRight": "7px",
+                            "position": "relative",
+                          },
+                        }
+                      }
+                      text="Necessary"
+                    />,
+                    <CookieOption
+                      checked={true}
+                      id="check-preferences-cookies"
+                      onChange={[Function]}
+                      styles={
+                        Object {
+                          "checkboxStyle": Object {
+                            "cursor": "pointer",
+                            "height": "14px",
+                            "left": "0",
+                            "position": "absolute",
+                            "top": "4px",
+                            "width": "14px",
+                            "zIndex": "2",
+                          },
+                          "optionLabelStyle": Object {
+                            "color": "#c6c6c6",
+                            "cursor": "default",
+                            "display": "inline-block",
+                            "fontSize": "12pt",
+                            "height": "auto",
+                            "left": "0",
+                            "minHeight": "14px",
+                            "padding": "1px 0 0 20px",
+                            "position": "relative",
+                            "top": "0",
+                            "verticalAlign": "top",
+                            "width": "auto",
+                            "zIndex": "1",
+                          },
+                          "optionWrapperStyle": Object {
+                            "display": "inline-block",
+                            "float": "left",
+                            "marginLeft": "7px",
+                            "marginRight": "7px",
+                            "position": "relative",
+                          },
+                        }
+                      }
+                      text="Preferences"
+                    />,
+                    <CookieOption
+                      checked={true}
+                      id="check-statistics-cookies"
+                      onChange={[Function]}
+                      styles={
+                        Object {
+                          "checkboxStyle": Object {
+                            "cursor": "pointer",
+                            "height": "14px",
+                            "left": "0",
+                            "position": "absolute",
+                            "top": "4px",
+                            "width": "14px",
+                            "zIndex": "2",
+                          },
+                          "optionLabelStyle": Object {
+                            "color": "#c6c6c6",
+                            "cursor": "default",
+                            "display": "inline-block",
+                            "fontSize": "12pt",
+                            "height": "auto",
+                            "left": "0",
+                            "minHeight": "14px",
+                            "padding": "1px 0 0 20px",
+                            "position": "relative",
+                            "top": "0",
+                            "verticalAlign": "top",
+                            "width": "auto",
+                            "zIndex": "1",
+                          },
+                          "optionWrapperStyle": Object {
+                            "display": "inline-block",
+                            "float": "left",
+                            "marginLeft": "7px",
+                            "marginRight": "7px",
+                            "position": "relative",
+                          },
+                        }
+                      }
+                      text="Statistics"
+                    />,
+                    <CookieOption
+                      id="check-marketing-cookies"
+                      onChange={[Function]}
+                      styles={
+                        Object {
+                          "checkboxStyle": Object {
+                            "cursor": "pointer",
+                            "height": "14px",
+                            "left": "0",
+                            "position": "absolute",
+                            "top": "4px",
+                            "width": "14px",
+                            "zIndex": "2",
+                          },
+                          "optionLabelStyle": Object {
+                            "color": "#c6c6c6",
+                            "cursor": "default",
+                            "display": "inline-block",
+                            "fontSize": "12pt",
+                            "height": "auto",
+                            "left": "0",
+                            "minHeight": "14px",
+                            "padding": "1px 0 0 20px",
+                            "position": "relative",
+                            "top": "0",
+                            "verticalAlign": "top",
+                            "width": "auto",
+                            "zIndex": "1",
+                          },
+                          "optionWrapperStyle": Object {
+                            "display": "inline-block",
+                            "float": "left",
+                            "marginLeft": "7px",
+                            "marginRight": "7px",
+                            "position": "relative",
+                          },
+                        }
+                      }
+                      text="Marketing"
+                    />,
+                  ],
+                  "className": "react-cookie-law-select-pane",
                   "style": Object {
-                    "backgroundColor": "#000000",
-                    "color": "#ffffff",
-                    "cursor": "pointer",
-                    "display": "inline-block",
-                    "fontSize": "10pt",
-                    "fontWeight": "400",
-                    "marginLeft": "5px",
-                    "marginRight": "5px",
-                    "minWidth": "80px",
-                    "padding": "3px",
-                    "textAlign": "center",
-                    "textDecoration": "none",
-                    "whiteSpace": "nowrap",
+                    "display": "table-cell",
+                    "padding": "3px 0px 10px 0px",
                   },
-                  "type": "button",
                 },
                 "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": "Accept All",
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "checked": true,
+                      "disabled": true,
+                      "id": "check-required-cookies",
+                      "styles": Object {
+                        "checkboxStyle": Object {
+                          "cursor": "pointer",
+                          "height": "14px",
+                          "left": "0",
+                          "position": "absolute",
+                          "top": "4px",
+                          "width": "14px",
+                          "zIndex": "2",
+                        },
+                        "optionLabelStyle": Object {
+                          "color": "#c6c6c6",
+                          "cursor": "default",
+                          "display": "inline-block",
+                          "fontSize": "12pt",
+                          "height": "auto",
+                          "left": "0",
+                          "minHeight": "14px",
+                          "padding": "1px 0 0 20px",
+                          "position": "relative",
+                          "top": "0",
+                          "verticalAlign": "top",
+                          "width": "auto",
+                          "zIndex": "1",
+                        },
+                        "optionWrapperStyle": Object {
+                          "display": "inline-block",
+                          "float": "left",
+                          "marginLeft": "7px",
+                          "marginRight": "7px",
+                          "position": "relative",
+                        },
+                      },
+                      "text": "Necessary",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
                   },
-                  "ref": null,
-                  "rendered": "Accept All",
-                  "type": "span",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "checked": true,
+                      "id": "check-preferences-cookies",
+                      "onChange": [Function],
+                      "styles": Object {
+                        "checkboxStyle": Object {
+                          "cursor": "pointer",
+                          "height": "14px",
+                          "left": "0",
+                          "position": "absolute",
+                          "top": "4px",
+                          "width": "14px",
+                          "zIndex": "2",
+                        },
+                        "optionLabelStyle": Object {
+                          "color": "#c6c6c6",
+                          "cursor": "default",
+                          "display": "inline-block",
+                          "fontSize": "12pt",
+                          "height": "auto",
+                          "left": "0",
+                          "minHeight": "14px",
+                          "padding": "1px 0 0 20px",
+                          "position": "relative",
+                          "top": "0",
+                          "verticalAlign": "top",
+                          "width": "auto",
+                          "zIndex": "1",
+                        },
+                        "optionWrapperStyle": Object {
+                          "display": "inline-block",
+                          "float": "left",
+                          "marginLeft": "7px",
+                          "marginRight": "7px",
+                          "position": "relative",
+                        },
+                      },
+                      "text": "Preferences",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "checked": true,
+                      "id": "check-statistics-cookies",
+                      "onChange": [Function],
+                      "styles": Object {
+                        "checkboxStyle": Object {
+                          "cursor": "pointer",
+                          "height": "14px",
+                          "left": "0",
+                          "position": "absolute",
+                          "top": "4px",
+                          "width": "14px",
+                          "zIndex": "2",
+                        },
+                        "optionLabelStyle": Object {
+                          "color": "#c6c6c6",
+                          "cursor": "default",
+                          "display": "inline-block",
+                          "fontSize": "12pt",
+                          "height": "auto",
+                          "left": "0",
+                          "minHeight": "14px",
+                          "padding": "1px 0 0 20px",
+                          "position": "relative",
+                          "top": "0",
+                          "verticalAlign": "top",
+                          "width": "auto",
+                          "zIndex": "1",
+                        },
+                        "optionWrapperStyle": Object {
+                          "display": "inline-block",
+                          "float": "left",
+                          "marginLeft": "7px",
+                          "marginRight": "7px",
+                          "position": "relative",
+                        },
+                      },
+                      "text": "Statistics",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "id": "check-marketing-cookies",
+                      "onChange": [Function],
+                      "styles": Object {
+                        "checkboxStyle": Object {
+                          "cursor": "pointer",
+                          "height": "14px",
+                          "left": "0",
+                          "position": "absolute",
+                          "top": "4px",
+                          "width": "14px",
+                          "zIndex": "2",
+                        },
+                        "optionLabelStyle": Object {
+                          "color": "#c6c6c6",
+                          "cursor": "default",
+                          "display": "inline-block",
+                          "fontSize": "12pt",
+                          "height": "auto",
+                          "left": "0",
+                          "minHeight": "14px",
+                          "padding": "1px 0 0 20px",
+                          "position": "relative",
+                          "top": "0",
+                          "verticalAlign": "top",
+                          "width": "auto",
+                          "zIndex": "1",
+                        },
+                        "optionWrapperStyle": Object {
+                          "display": "inline-block",
+                          "float": "left",
+                          "marginLeft": "7px",
+                          "marginRight": "7px",
+                          "position": "relative",
+                        },
+                      },
+                      "text": "Marketing",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Privacy Policy",
+                  "className": "react-cookie-law-policy",
+                  "href": "/#",
+                  "style": Object {
+                    "color": "#000000",
+                    "fontSize": "10pt",
+                    "marginLeft": "10px",
+                    "textDecoration": "underline",
+                  },
+                  "target": "_blank",
                 },
-                "type": "button",
+                "ref": null,
+                "rendered": "Privacy Policy",
+                "type": "a",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    false,
+                    <button
+                      className="react-cookie-law-accept-btn btn btn-outline-secondary"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <span>
+                        Accept
+                      </span>
+                    </button>,
+                    <button
+                      className="react-cookie-law-accept-all-btn btn btn-primary"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <span>
+                        Accept All
+                      </span>
+                    </button>,
+                  ],
+                  "className": "react-cookie-law-button-wrapper",
+                  "style": Object {
+                    "float": "right",
+                  },
+                },
+                "ref": null,
+                "rendered": Array [
+                  false,
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <span>
+                        Accept
+                      </span>,
+                      "className": "react-cookie-law-accept-btn btn btn-outline-secondary",
+                      "onClick": [Function],
+                      "type": "button",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Accept",
+                      },
+                      "ref": null,
+                      "rendered": "Accept",
+                      "type": "span",
+                    },
+                    "type": "button",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <span>
+                        Accept All
+                      </span>,
+                      "className": "react-cookie-law-accept-all-btn btn btn-primary",
+                      "onClick": [Function],
+                      "type": "button",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Accept All",
+                      },
+                      "ref": null,
+                      "rendered": "Accept All",
+                      "type": "span",
+                    },
+                    "type": "button",
+                  },
+                ],
+                "type": "div",
               },
             ],
             "type": "div",
           },
-        ],
-        "type": "div",
-      },
-      "type": "div",
+          "type": "div",
+        },
+      ],
+      "type": Symbol(react.fragment),
     },
   ],
   Symbol(enzyme.__options__): Object {

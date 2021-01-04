@@ -48,96 +48,100 @@ export default (props = {}) => {
   };
 
   const btn = 'btn';
+  const btnPrimary = 'btn btn-primary';
+  const btnOutlineSecondary = 'btn btn-outline-secondary';
 
   return (
-    <div className={`react-cookie-law-dialog ${className}`} style={dialogStyle}>
-      <div className="react-cookie-law-container" style={containerStyle}>
-        <div className="react-cookie-law-msg" style={messageStyle}>
-          {message}
-        </div>
+    <>
+      <div className={`react-cookie-law-background`}></div>
 
-        <div className="react-cookie-law-select-pane" style={selectPaneStyle}>
-          <CookieOption
-            id="check-required-cookies"
-            text={necessaryOptionText}
-            styles={cookieOptionStyle}
-            disabled
-            checked
-          />
+      <div className={`react-cookie-law-dialog ${className}`} style={dialogStyle}>
+        <div className="react-cookie-law-container" style={containerStyle}>
+          <div className="react-cookie-law-msg" style={messageStyle}>
+            {message}
+          </div>
 
-          {showPreferencesOption && (
+          <div className="react-cookie-law-select-pane" style={selectPaneStyle}>
             <CookieOption
-              id="check-preferences-cookies"
-              text={preferencesOptionText}
+              id="check-required-cookies"
+              text={necessaryOptionText}
               styles={cookieOptionStyle}
-              onChange={onTogglePreferencesCookies}
+              disabled
               checked
             />
-          )}
 
-          {showStatisticsOption && (
-            <CookieOption
-              id="check-statistics-cookies"
-              text={statisticsOptionText}
-              styles={cookieOptionStyle}
-              onChange={onToggleStatisticsCookies}
-              checked
-            />
-          )}
+            {showPreferencesOption && (
+              <CookieOption
+                id="check-preferences-cookies"
+                text={preferencesOptionText}
+                styles={cookieOptionStyle}
+                onChange={onTogglePreferencesCookies}
+                checked
+              />
+            )}
 
-          {showMarketingOption && (
-            <CookieOption
-              id="check-marketing-cookies"
-              text={marketingOptionText}
-              styles={cookieOptionStyle}
-              onChange={onToggleMarketingCookies}
-            />
-          )}
-        </div>
+            {showStatisticsOption && (
+              <CookieOption
+                id="check-statistics-cookies"
+                text={statisticsOptionText}
+                styles={cookieOptionStyle}
+                onChange={onToggleStatisticsCookies}
+                checked
+              />
+            )}
 
-        <a
-          href={policyLink}
-          target="_blank"
-          className="react-cookie-law-policy"
-          style={policyStyle}
-        >
-          {privacyPolicyLinkText}
-        </a>
+            {showMarketingOption && (
+              <CookieOption
+                id="check-marketing-cookies"
+                text={marketingOptionText}
+                styles={cookieOptionStyle}
+                onChange={onToggleMarketingCookies}
+              />
+            )}
+          </div>
 
-        <div
-          className="react-cookie-law-button-wrapper"
-          style={buttonWrapperStyle}
-        >
-          {showDeclineButton && (
+          <a
+            href={policyLink}
+            target="_blank"
+            className="react-cookie-law-policy"
+            style={policyStyle}
+          >
+            {privacyPolicyLinkText}
+          </a>
+
+          <div
+            className="react-cookie-law-button-wrapper"
+            style={buttonWrapperStyle}
+          >
+            {showDeclineButton && (
+              <button
+                type="button"
+                className={`react-cookie-law-decline-btn ${btn}`}
+                style={buttonStyle}
+                onClick={() => onDecline()}
+              >
+                <span>{declineButtonText}</span>
+              </button>
+            )}
+
             <button
               type="button"
-              className={`react-cookie-law-decline-btn ${btn}`}
-              style={buttonStyle}
-              onClick={() => onDecline()}
+              className={`react-cookie-law-accept-btn ${btnOutlineSecondary}`}
+              onClick={() => onConfirm()}
             >
-              <span>{declineButtonText}</span>
+              <span>{acceptButtonText}</span>
             </button>
-          )}
 
-          <button
-            type="button"
-            className={`react-cookie-law-accept-btn ${btn}`}
-            style={buttonStyle}
-            onClick={() => onConfirm()}
-          >
-            <span>{acceptButtonText}</span>
-          </button>
-
-          <button
-              type="button"
-              className={`react-cookie-law-accept-all-btn ${btn}`}
-              style={buttonStyle}
-              onClick={() => onConfirmAll()}
-          >
-            <span>{acceptAllButtonText}</span>
-          </button>
+            <button
+                type="button"
+                className={`react-cookie-law-accept-all-btn ${btnPrimary}`}
+                onClick={() => onConfirmAll()}
+            >
+              <span>{acceptAllButtonText}</span>
+            </button>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };

@@ -46,7 +46,7 @@ class CookieOption extends React.Component {
           onChange={this.handleOnChange}
           {...isDisabled}
         />
-        <span style={optionLabelStyle}>{text}</span>
+        <span className="react-cookie-law-option-label">{text}</span>
       </div>
     );
   }

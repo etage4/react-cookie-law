@@ -30,7 +30,9 @@ ShallowWrapper {
           onChange={[Function]}
           type="checkbox"
         />,
-        <span>
+        <span
+          className="react-cookie-law-option-label"
+        >
           Necessary
         </span>,
       ],
@@ -61,7 +63,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "Necessary",
-          "style": undefined,
+          "className": "react-cookie-law-option-label",
         },
         "ref": null,
         "rendered": "Necessary",
@@ -84,7 +86,9 @@ ShallowWrapper {
             onChange={[Function]}
             type="checkbox"
           />,
-          <span>
+          <span
+            className="react-cookie-law-option-label"
+          >
             Necessary
           </span>,
         ],
@@ -115,7 +119,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Necessary",
-            "style": undefined,
+            "className": "react-cookie-law-option-label",
           },
           "ref": null,
           "rendered": "Necessary",
