@@ -80,5 +80,5 @@ export default {
     textAlign: 'center',
     whiteSpace: 'nowrap',
     cursor: 'pointer',
-  },
+  }
 };

@@ -52,9 +52,6 @@ export default (props = {}) => {
   const btnOutlineSecondary = 'btn btn-outline-secondary';
 
   return (
-    <>
-      <div className={`react-cookie-law-background`}></div>
-
       <div className={`react-cookie-law-dialog ${className}`} style={dialogStyle}>
         <div className="react-cookie-law-container" style={containerStyle}>
           <div className="react-cookie-law-msg" style={messageStyle}>
@@ -142,6 +139,5 @@ export default (props = {}) => {
           </div>
         </div>
       </div>
-    </>
   );
 };
